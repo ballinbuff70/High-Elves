@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>High Elves</name>
+	<author>Buffsboy474</author>
+	<packageId>Buffsboy474.HighElves</packageId>
+	<supportedVersions>
+      <li>1.2</li>
+   </supportedVersions>
+	<description>V1.3
+High Elves gear.
+	</description>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>unlimitedhugs.hugslib</li>
+		<li>jecrell.jecstools</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>sickboywi.theendtimes.theendtimes</li>
+		<li>sickboywi.theendtimes.dwarfs</li>
+		<li>isorex.craftablepawnframework</li>
+		<li>neronix17.toolbox</li>
+		<li>neronix17.fr.compilation</li>
+		<li>vindar.medievaltimes</li>
+		<li>vanillaexpanded.vfesecurity</li>
+	</loadAfter>
+</ModMetaData>
