@@ -6,8 +6,8 @@
 	<supportedVersions>
       <li>1.2</li>
    </supportedVersions>
-	<description>V1.3
-High Elves gear.
+	<description>
+High Elves brought to Rimworld!
 	</description>
 	<loadAfter>
 		<li>brrainz.harmony</li>
@@ -21,5 +21,6 @@ High Elves gear.
 		<li>neronix17.fr.compilation</li>
 		<li>vindar.medievaltimes</li>
 		<li>vanillaexpanded.vfesecurity</li>
+		<li>torann.arimworldofmagic</li>
 	</loadAfter>
 </ModMetaData>
