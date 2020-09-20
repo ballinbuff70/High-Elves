@@ -501,7 +501,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>HE_Sword_Three</defName>
+		<defName>HE_Sword_Four</defName>
 		<label>High Elf Sword (Four)</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
