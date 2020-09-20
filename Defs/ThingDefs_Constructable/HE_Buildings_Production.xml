@@ -118,7 +118,7 @@
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Silver</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -186,7 +186,7 @@
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Silver</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -251,11 +251,11 @@
     </building>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Silver</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
