@@ -256,8 +256,8 @@
         <heatPushMinTemperature>17</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
-        <fuelCapacity>450.0</fuelCapacity>
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelCapacity>950.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
