@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>RH_TET_HE_SpearmanOne</defName>
+		<defName>RH_TET_HE_Shield_One</defName>
 		<label>High Elf Shield (One)</label>
 		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
 		<equipmentType>None</equipmentType>
@@ -95,7 +95,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>RH_TET_HE_SpearmanTwo</defName>
+		<defName>RH_TET_HE_Shield_Two</defName>
 		<label>High Elf Shield (Two)</label>
 		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
 		<equipmentType>None</equipmentType>
@@ -188,7 +188,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>RH_TET_HE_SpearmanThree</defName>
+		<defName>RH_TET_HE_Shield_Three</defName>
 		<label>High Elf Shield (Three)</label>
 		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
 		<equipmentType>None</equipmentType>
@@ -281,7 +281,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>RH_TET_HE_SpearmanFour</defName>
+		<defName>RH_TET_HE_Shield_Four</defName>
 		<label>High Elf Shield (Four)</label>
 		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
 		<equipmentType>None</equipmentType>
