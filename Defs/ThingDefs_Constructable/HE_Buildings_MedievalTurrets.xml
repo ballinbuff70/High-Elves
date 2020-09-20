@@ -135,7 +135,7 @@
     <label>Eagle Claw ballista</label>
     <description>An ancient military siege engine in a form of a crossbow mounted on a wooden construct.</description>
     <graphicData>
-      <texPath>Things/Building/Security/EagleClaw_MenuIcon</texPath>
+      <texPath>Things/Building/Security/EagleClaw_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <color>(255, 255, 255)</color>	  
