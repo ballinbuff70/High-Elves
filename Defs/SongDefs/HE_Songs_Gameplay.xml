@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<SongDef>
+		<clipPath>Northstar</clipPath>
+        <volume>0.6</volume>
+	</SongDef>  
+	
+<SongDef>
+		<clipPath>IshasBlessing</clipPath>
+        <volume>0.65</volume>
+	</SongDef> 
+	
+<SongDef>
+		<clipPath>HighLoremaster</clipPath>
+        <volume>0.7</volume>
+	</SongDef>
+	
+<SongDef>
+		<clipPath>HeirOfAenarion</clipPath>
+        <volume>0.65</volume>
+	</SongDef>  
+	
+<SongDef>
+		<clipPath>ChildrenOfUlthuan</clipPath>
+		<volume>0.8</volume>
+	</SongDef>
+	
+<SongDef>
+		<clipPath>CaledorsRitual</clipPath>
+		<volume>0.6</volume>
+	</SongDef>
+	
+<SongDef>
+		<clipPath>AStormOfMagic</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>ArcaneMastery</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>ALandOfSongWar</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>TheTenKingdoms</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>TheSeafarer</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>TheGreatVortex</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>ShrineOfAsuryan</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<SongDef>
+		<clipPath>PhoenixKing</clipPath>
+		<volume>0.5</volume>
+	</SongDef>
+
+<!-- Tense -->
+	
+<SongDef>
+		<clipPath>Dragonflame</clipPath>
+		<volume>0.6</volume>
+		<tense>true</tense>
+	</SongDef>
+
+<SongDef>
+		<clipPath>Demonslayer</clipPath>
+        <volume>0.65</volume>
+		<tense>true</tense>
+	</SongDef>  
+
+<SongDef>
+		<clipPath>TheAsurMarch</clipPath>
+        <volume>0.65</volume>
+		<tense>true</tense>
+	</SongDef>  
+	
+<SongDef>
+		<clipPath>Widowmaker</clipPath>
+        <volume>0.6</volume>
+		<tense>true</tense>
+	</SongDef> 
+
+<SongDef>
+		<clipPath>TheSundering</clipPath>
+        <volume>0.6</volume>
+		<tense>true</tense>
+	</SongDef> 
+
+<SongDef>
+		<clipPath>TheBloodWolf</clipPath>
+        <volume>0.6</volume>
+		<tense>true</tense>
+	</SongDef> 
+	
+</Defs>
+

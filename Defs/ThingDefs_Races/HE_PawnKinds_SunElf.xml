@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="O21_ElfBaseColonyPawnKind">
+		<defName>O21_SunElfColonist</defName>
+		<label>Sun Elf</label>
+		<race>O21_Alien_SunElf</race>
+		<defaultFactionType>O21_SunElfPlayerColony</defaultFactionType>
+		<modExtensions>
+			<li Class="CraftablePawnFramework.MyDefExtension">
+				<setSkillLevel>true</setSkillLevel>
+				<skillLevelAt>15</skillLevelAt>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

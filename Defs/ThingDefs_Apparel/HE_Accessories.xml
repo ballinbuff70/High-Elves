@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_LoremasterOrb</defName>
+    <label>Loremaster Orb</label>
+    <description>[Workspeed: +20%] Countless are the innocent souls whose life essence has flowed into this bewitched goblet. Those that drink from it are rejuvenated with new power..</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/LoremasterOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Gold>85</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>400</WorkToMake>	  
+      <Mass>1</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+	  <MoveSpeed>0.15</MoveSpeed>
+	  <MeleeHitChance>0.2</MeleeHitChance>
+    </equippedStatOffsets>
+	<comps>
+		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+			<hasEnchantment>true</hasEnchantment>
+			<arcaneSpectre>true</arcaneSpectre>
+			<maxMP>0.35</maxMP>
+			<maxMPTier>Standard</maxMPTier>
+			<mpRegenRate>0.35</mpRegenRate>
+			<mpRegenRateTier>Standard</mpRegenRateTier>
+			<mpCost>0.2</mpCost>
+			<mpCostTier>Negative</mpCostTier>
+			<arcaneRes>0.35</arcaneRes>
+			<arcaneResTier>Standard</arcaneResTier>
+		</li>
+	</comps>	
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+
+    <!-- Slave Rune -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_TalismanofSaphery</defName>
+    <label>Talisman of Saphery</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/TalismanofSaphery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Gold>25</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>200</WorkToMake>	  
+      <Mass>1</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+	  <PlantWorkSpeed>0.4</PlantWorkSpeed>
+	  <PlantHarvestYield>0.6</PlantHarvestYield>
+	  <MiningSpeed>0.5</MiningSpeed>
+      <MoveSpeed>0.4</MoveSpeed>
+    </equippedStatOffsets>			
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+
+    <!-- NecromanticPowerStone -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_TeachingsoftheLifeBloom</defName>
+    <label>Teachings of the Life Bloom</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/TeachingsoftheLifeBloom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+	  <Gold>65</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>600</WorkToMake>	  
+      <Mass>3</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+	  <MedicalPotency>0.85</MedicalPotency>
+	  <MedicalSurgerySuccessChance>0.55</MedicalSurgerySuccessChance>
+	  <MedicalTendQuality>0.8</MedicalTendQuality>
+	  <MedicalTendSpeed>0.55</MedicalTendSpeed>
+	  <MedicalOperationSpeed>0.45</MedicalOperationSpeed>
+	  <ResearchSpeed>0.65</ResearchSpeed>
+	  <MoveSpeed>0.18</MoveSpeed>
+    </equippedStatOffsets>	
+	<comps>
+		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+			<hasEnchantment>true</hasEnchantment>
+			<arcaneSpectre>true</arcaneSpectre>
+			<maxMP>0.20</maxMP>
+			<maxMPTier>Standard</maxMPTier>
+			<mpRegenRate>0.24</mpRegenRate>
+			<mpRegenRateTier>Standard</mpRegenRateTier>
+			<mpCost>0.15</mpCost>
+			<mpCostTier>Negative</mpCostTier>
+			<arcaneRes>0.35</arcaneRes>
+			<arcaneResTier>Standard</arcaneResTier>
+		</li>
+	</comps>	
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+
+     <!-- RingofUnlife -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_TalismanofLoec</defName>
+    <label>Talisman of Loec</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/TalismanofLoec</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+	  <Gold>85</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>	  
+      <Mass>1</Mass>
+	  <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+	  <MarketValue>50000</MarketValue>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.35</WorkSpeedGlobal>
+	  <MeleeHitChance>0.4</MeleeHitChance>
+	  <MeleeDodgeChance>0.4</MeleeDodgeChance>
+	  <ShootingAccuracyPawn>0.45</ShootingAccuracyPawn>	  
+    </equippedStatOffsets>			
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+
+     <!-- RangerRune -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_EllyrianRangerTraining</defName>
+    <label>Ellyrian Ranger Training</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/EllyrianRangerTraining</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Gold>15</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>500</WorkToMake>	  
+      <Mass>1</Mass>
+	  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.18</MoveSpeed>
+	  <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+	  <AimingDelayFactor>-0.15</AimingDelayFactor>
+	  <MeleeHitChance>-0.1</MeleeHitChance>
+	  <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+    </equippedStatOffsets>			
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+
+     <!-- Sword Master of Hoeth Training -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_SwordMasterofHoethTraining</defName>
+    <label>Sword Master of Hoeth Training</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/SwordMasterofHoethTraining</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Gold>15</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>500</WorkToMake>	  
+      <Mass>1</Mass>
+	  <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.08</MoveSpeed>
+	  <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+	  <MeleeHitChance>0.15</MeleeHitChance>
+	  <MeleeDodgeChance>0.15</MeleeDodgeChance>
+    </equippedStatOffsets>			
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+ 
+     <!-- Marine Merchant Purse -->
+
+ <ThingDef ParentName="MedTimes_Accessories_Norm">
+    <thingClass>Apparel</thingClass>  
+    <defName>VC_MarineMerchantPurse</defName>
+    <label>Marine Merchant Purse</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Items/Accessories/MarineMerchantPurse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Gold>10</Gold>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>500</WorkToMake>	  
+      <Mass>1</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+	  <MoveSpeed>0.05</MoveSpeed>
+	  <NegotiationAbility>0.25</NegotiationAbility>
+	  <SocialImpact>0.35</SocialImpact>
+	  <TradePriceImprovement>0.15</TradePriceImprovement>
+    </equippedStatOffsets>			
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+  </ThingDef>
+ 
+</Defs>

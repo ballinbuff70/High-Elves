@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Tier 1 -->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>LotRE_Arrow_Mirkwood</defName>
+    <label>mirkwood arrow</label>
+    <graphicData>
+      <texPath>Things/Projectiles/MM_arrow_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>62</speed>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.225</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>LotRE_Bow_Mirkwood</defName>
+    <label>High Elf Ranger Bow</label>
+    <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Bow_Ranger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>	  
+    </graphicData>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+	  <Resource_IthilmarIngot>1</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>0.7</Mass>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRE_Arrow_Mirkwood</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>38</range>
+        <soundCast>MirkwoodBow</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>arrow</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Tier 2 -->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>LotRE_Arrow_Galadhrim</defName>
+    <label>galadhrim arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/MM_arrow_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>40</speed>
+      <armorPenetrationBase>0.333</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>LotRE_Bow_Galadhrim</defName>
+    <label>High Elf Aeir Bow</label>
+    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Weapons/Bow_Aeir</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>	  
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <costList>
+      <WoodLog>75</WoodLog>
+      <Gold>5</Gold>
+	  <Resource_IthilmarIngot>3</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.89</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.77</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <minRange>1.5</minRange>
+        <range>44</range>
+        <soundCast>ElfLongbow</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+
+        <label>arrow</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

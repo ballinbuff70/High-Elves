@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CornCrates</defName>
+    <label>Corn Crates</label>
+    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <graphicData>
+      <texPath>Things/Items/Resources/CornCrates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>HopsCrates</defName>
+    <label>Hops Crates</label>
+    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <graphicData>
+      <texPath>Things/Items/Resources/HopsCrates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PotatoCrates</defName>
+    <label>Potato Crates</label>
+    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <graphicData>
+      <texPath>Things/Items/Resources/PotatoCrates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>HayCrates</defName>
+    <label>Hay Crates</label>
+    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <graphicData>
+      <texPath>Things/Items/Resources/HayCrates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MedCrates</defName>
+    <label>Medicine Crates</label>
+    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <graphicData>
+      <texPath>Things/Items/Resources/MedCrates</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

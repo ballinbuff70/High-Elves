@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PawnKindDef ParentName="RH_TET_HorseKindBase">
+	<defName>RH_TET_Horse_Craft</defName>
+	<label>warhorse</label>
+	<race>RH_TET_Horse</race>
+	<combatPower>85</combatPower>
+	<ecoSystemWeight>0.38</ecoSystemWeight>
+	<wildGroupSize>
+		<min>3</min>
+		<max>10</max>
+	</wildGroupSize>
+	<labelFemale>mare</labelFemale>
+	<lifeStages>
+		<li>
+			<label>foal</label>
+			<labelPlural>foals</labelPlural>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/RH_TET_Horse/RH_TET_Horse</texPath>
+				<drawSize>1.50</drawSize>
+				<color>(255, 255, 255)</color>
+				<shadowData>
+					<volume>(0.2, 0.1, 0.2)</volume>
+					<offset>(0,0,-0.2)</offset>
+				</shadowData>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+				<drawSize>1.5</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/RH_TET_Horse/RH_TET_Horse</texPath>
+				<drawSize>2</drawSize>
+				<color>(255, 255, 255)</color>
+				<shadowData>
+					<volume>(0.3, 0.3, 0.3)</volume>
+					<offset>(0,0,-0.3)</offset>
+				</shadowData>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+				<drawSize>2.25</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/RH_TET_Horse/RH_TET_Horse</texPath>
+				<drawSize>3</drawSize>
+				<color>(255, 255, 255)</color>
+				<shadowData>
+					<volume>(0.4, 0.4, 0.4)</volume>
+					<offset>(0,0,-0.2)</offset>
+				</shadowData>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+				<drawSize>3</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+	</lifeStages>
+	<modExtensions>
+		<li Class="CraftablePawnFramework.MyDefExtension">
+			<setSkillLevel>true</setSkillLevel>
+			<skillLevelAt>3</skillLevelAt>
+		</li>
+	</modExtensions>	
+</PawnKindDef>
+
+</Defs>

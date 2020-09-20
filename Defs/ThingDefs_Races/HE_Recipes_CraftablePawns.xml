@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>CPF_Make_DRSKT_RacePawn</defName>
+		<label>Contract a High Elf recruit</label>
+		<description>Contract a High Elf recruit.</description>
+		<jobString>Contracting a High Elf recruit</jobString>
+		<recipeUsers>
+			<li>HighElves_RequisitionsTent</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>	
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<products>
+			<CPF_DRSKT_RacePawnAssembler>1</CPF_DRSKT_RacePawnAssembler>
+			<!--Should be equal to the defName of your assembly kit item-->
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CPF_Make_CitizenA_RacePawn</defName>
+		<label>Contract a High Elf citizen (A)</label>
+		<description>Contract a High Elf citizen (A).</description>
+		<jobString>Contracting a High Elf citizen (A)</jobString>
+		<recipeUsers>
+			<li>HighElves_RequisitionsTent</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>	
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<CPF_RH_TET_HighElvenCitizenPawnAssembler>1</CPF_RH_TET_HighElvenCitizenPawnAssembler>
+			<!--Should be equal to the defName of your assembly kit item-->
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CPF_Make_CitizenB_RacePawn</defName>
+		<label>Contract a High Elf citizen (B)</label>
+		<description>Contract a High Elf citizen (B).</description>
+		<jobString>Contracting a High Elf citizen (B)</jobString>
+		<recipeUsers>
+			<li>HighElves_RequisitionsTent</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>	
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<CPF_RH_TET_HighElvenCitizenTPawnAssembler>1</CPF_RH_TET_HighElvenCitizenTPawnAssembler>
+			<!--Should be equal to the defName of your assembly kit item-->
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CPF_Make_Horse_RacePawn</defName>
+		<label>Purchase a steed</label>
+		<description>Purchase a steed.</description>
+		<jobString>Purchase a steed</jobString>
+		<recipeUsers>
+			<li>HighElves_RequisitionsTent</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>	
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<CPF_RH_TET_HorsesPawnAssembler>1</CPF_RH_TET_HorsesPawnAssembler>
+			<!--Should be equal to the defName of your assembly kit item-->
+		</products>
+	</RecipeDef>
+	
+</Defs>

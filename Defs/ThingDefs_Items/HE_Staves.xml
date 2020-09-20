@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="VC_BaseStafforScroll" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>Vampire Counts</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="VC_BaseStafforScrollWithQuality" Abstract="True" ParentName="VC_BaseStafforScroll">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="VC_MakeableBaseStafforScroll" ParentName="VC_BaseStafforScrollWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="VC_BaseVCStafforScroll" ParentName="VC_BaseStafforScrollWithQuality" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <ThingDef Name="VC_BaseMakeableVCStafforScroll" ParentName="VC_MakeableBaseStafforScroll" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+
+	<!-- Staff_One -->
+
+  <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
+    <defName>VC_Staff_One</defName>
+    <label>Staff of Saphery</label>
+    <description>Placeholder</description>
+    <graphicData>
+      <texPath>Things/Weapons/Staff_One</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+	  <MarketValue>50000</MarketValue>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <Resource_IthilmarIngot>10</Resource_IthilmarIngot>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>	  
+	</recipeMaker>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VC_BlueEnergy</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>25</range>
+        <soundCast>ForceStave</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>Staff</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>Staff Head</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>VC_BlueEnergy</defName>
+    <label>VC Blue Energy Projectile</label>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+	  <damageDef>Burn</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>55</speed>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectiles/VC_BlueEnergy/VC_BlueEnergy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- Dark Shepard Staff -->
+
+  <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
+    <defName>VC_Staff_Two</defName>
+    <label>Staff of the Winds</label>
+    <description>Placeholder</description>
+    <graphicData>
+      <texPath>Things/Weapons/Staff_Two</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+	  <MarketValue>50000</MarketValue>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>		
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VC_PurpleEnergy</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>25</range>
+        <soundCast>littlebrojaystrike</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>Staff</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>Staff Head</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>VC_PurpleEnergy</defName>
+    <label>VC Purple Energy Projectile</label>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+	  <damageDef>Burn</damageDef>
+      <damageAmountBase>45</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>55</speed>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectiles/VC_PurpleEnergy/VC_PurpleEnergy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>	
+  </ThingDef>
+
+	<!-- Death Stone Staff -->
+
+  <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
+    <defName>VC_Staff_Three</defName>
+    <label>Staff of the Vortex</label>
+    <description>Placeholder</description>
+    <graphicData>
+      <texPath>Things/Weapons/Staff_Three</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+	  <MarketValue>50000</MarketValue>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>240</Steel>
+      <Gold>5</Gold>
+      <Resource_IthilmarIngot>25</Resource_IthilmarIngot>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>		
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VC_GreenEnergy</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>25</range>
+        <soundCast>fireballwoosh</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>Staff</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>Staff Head</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>VC_GreenEnergy</defName>
+    <label>VC Green Energy Projectile</label>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+	  <damageDef>Burn</damageDef>
+      <damageAmountBase>65</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>55</speed>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectiles/VC_GreenEnergy/VC_GreenEnergy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  </Defs>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>ElfLongbow</defName>  
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/ElfLongbow</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>MirkwoodBow</defName>  
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/MirkwoodBow</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>littlebrojaystrike</defName>  
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/littlebrojaystrike</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>ForceStave</defName>  
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/ForceStave</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>fireballwoosh</defName>  
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/fireballwoosh</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

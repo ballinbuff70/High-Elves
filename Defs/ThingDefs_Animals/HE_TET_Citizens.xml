@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>RH_TET_HighElvenCitizen</defName>
+    <label>High Elven Citizen</label>
+    <description>Clanrats form the vast overall bulk of Skaven military power, a large verminous horde of ratmen that go to war as basic and highly-expendable front-line infantry.</description>
+    <statBases>
+      <MoveSpeed>3.4</MoveSpeed>
+      <MarketValue>100</MarketValue>
+      <ComfyTemperatureMin>-200</ComfyTemperatureMin>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+    </statBases>
+    <!--<uiIconScale>1.5</uiIconScale>-->
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>Gold</woolDef>
+        <shearIntervalDays>6</shearIntervalDays>
+        <woolAmount>20</woolAmount>
+      </li>
+    </comps>	
+    <race>
+      <fleshType>RH_TET_SkavenMeat</fleshType>
+      <body>Monkey</body>
+      <petness>0.70</petness>
+      <manhunterOnTameFailChance>.99</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>.99</manhunterOnDamageChance>
+      <herdAnimal>false</herdAnimal>
+      <needsRest>false</needsRest>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseHealthScale>0.45</baseHealthScale>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Light</leatherDef>
+      <trainability>Advanced</trainability>
+      <wildness>0.01</wildness>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <lifeExpectancy>9999</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Monkey_Wounded</soundWounded>
+          <soundDeath>Pawn_Monkey_Death</soundDeath>
+          <soundCall>Pawn_Monkey_Call</soundCall>
+          <soundAngry>Pawn_Monkey_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>RH_TET_HighElvenCitizen</defName>
+    <label>Cordial High Elf Citizen</label>
+    <race>RH_TET_HighElvenCitizen</race>
+    <combatPower>25</combatPower>
+	<defaultFactionType>PlayerColony</defaultFactionType>
+    <ecoSystemWeight>0.01</ecoSystemWeight>
+    <!--<wildGroupSize>3~7</wildGroupSize>-->
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HEOne/HEOne</texPath>
+          <drawSize>1.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HEOne/Elvies_Dessicated</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Elvies/HEOne/HEOne_female</texPath>
+          <drawSize>1.9</drawSize>
+        </femaleGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HEOne/Elvies_Dessicated_female</texPath>
+          <drawSize>1.9</drawSize>
+        </femaleDessicatedBodyGraphicData>		
+      </li>
+    </lifeStages>
+	<modExtensions>
+		<li Class="CraftablePawnFramework.MyDefExtension">
+			<setSkillLevel>true</setSkillLevel>
+			<skillLevelAt>3</skillLevelAt>
+		</li>
+	</modExtensions>	
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>RH_TET_HighElvenCitizenT</defName>
+    <label>Respected High Elf Citizen</label>
+    <race>RH_TET_HighElvenCitizen</race>
+	<defaultFactionType>PlayerColony</defaultFactionType>
+    <combatPower>25</combatPower>
+    <ecoSystemWeight>0.01</ecoSystemWeight>
+    <!--<wildGroupSize>3~7</wildGroupSize>-->
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HETwo/HETwo</texPath>
+          <drawSize>1.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HETwo/Elvies_Dessicated</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Elvies/HETwo/HETwo_female</texPath>
+          <drawSize>1.9</drawSize>
+        </femaleGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Elvies/HETwo/Elvies_Dessicated_female</texPath>
+          <drawSize>1.9</drawSize>
+        </femaleDessicatedBodyGraphicData>		
+      </li>
+    </lifeStages>
+	<modExtensions>
+		<li Class="CraftablePawnFramework.MyDefExtension">
+			<setSkillLevel>true</setSkillLevel>
+			<skillLevelAt>3</skillLevelAt>
+		</li>
+	</modExtensions>	
+  </PawnKindDef>
+  
+</Defs>

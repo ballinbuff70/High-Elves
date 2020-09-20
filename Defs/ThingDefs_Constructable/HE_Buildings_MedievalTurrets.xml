@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Eagle Claw Ballista -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFES_Turret_BallistaEagleClaw</defName>
+    <label>Eagle Claw Bolt Thrower</label>
+    <description>An ancient military siege engine in the form of a crossbow mounted on a wooden construct. Bolts fired from this machine explode into splinters on impact.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/HETurretBallista_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>	  
+      <drawSize>(2.3, 2.3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <uiIconPath>Things/Building/Security/EagleClaw_MenuIcon</uiIconPath>
+    <uiIconScale>0.95</uiIconScale>
+    <size>(2,2)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1</Flammability>
+      <WorkToBuild>3600</WorkToBuild>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Ballista bolts</fuelLabel>
+        <fuelGizmoLabel>Ballista bolts</fuelGizmoLabel>
+        <showFuelGizmo>true</showFuelGizmo>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelConsumptionRate>4</fuelConsumptionRate>
+        <fuelCapacity>50</fuelCapacity>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>0.2</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs ballista bolts</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/FuelBallistaBolt</fuelIconPath>
+        <initialFuelPercent>1</initialFuelPercent>
+      </li>
+    </comps>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>90</costStuffCount>
+    <costList>
+      <WoodLog>100</WoodLog>
+      <Steel>40</Steel>
+	  <Resource_IthilmarIngot>20</Resource_IthilmarIngot>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>VFES_Gun_BallistaTurretEagleClaw</turretGunDef>
+      <turretBurstCooldownTime>9.5</turretBurstCooldownTime>
+      <turretBurstWarmupTime>3.5</turretBurstWarmupTime>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <repairEffect>ConstructDirt</repairEffect>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>VFES_SiegeEquipment</li>
+    </researchPrerequisites>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>VFES_Bullet_BallistaEagleClaw</defName>
+    <label>Eagle Claw ballista bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <thingClass>VFESecurity.Bullet_ExplosiveAlt</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>49</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="VFESecurity.ExtendedProjectileProperties">
+        <projectile2>
+          <damageDef>VFES_SplinterArrow</damageDef>
+          <damageAmountBase>22</damageAmountBase>
+          <explosionRadius>1.5</explosionRadius>
+          <soundExplode>BulletImpact_Wood</soundExplode>
+          <armorPenetrationBase>0.25</armorPenetrationBase>
+        </projectile2>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>VFES_Gun_BallistaTurretEagleClaw</defName>
+    <label>Eagle Claw ballista</label>
+    <description>An ancient military siege engine in a form of a crossbow mounted on a wooden construct.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/EagleClaw_MenuIcon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>	  
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <menuHidden>true</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.79</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.72</AccuracyLong>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>48</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>ArtilleryMedieval</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VFES_Bullet_BallistaEagleClaw</defaultProjectile>
+        <warmupTime>1.9</warmupTime>
+        <minRange>4.9</minRange>
+        <range>55.9</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>		
+        <soundCast>VFES_Shot_Ballista</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</Defs>
