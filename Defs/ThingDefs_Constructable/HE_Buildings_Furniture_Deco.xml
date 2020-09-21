@@ -45,6 +45,48 @@
 		</researchPrerequisites>	
 	</ThingDef>
 
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagTwo</defName>
+		<label>High Elf Flag (Two)</label>
+		<description>High Elf Flag (Two)</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/Flag_Two</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>	
+	
  <!--============================== Other Decorations ==============================-->
 
 	<ThingDef ParentName="FurnitureBase">
