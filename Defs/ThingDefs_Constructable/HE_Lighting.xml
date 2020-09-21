@@ -17,7 +17,6 @@
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <costStuffCount>60</costStuffCount>
     <rotatable>false</rotatable>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -35,7 +34,7 @@
       <MaxHitPoints>110</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
       <Flammability>0</Flammability>
-      <Beauty>10</Beauty>
+      <Beauty>15</Beauty>
     </statBases>
     <selectable>true</selectable>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
