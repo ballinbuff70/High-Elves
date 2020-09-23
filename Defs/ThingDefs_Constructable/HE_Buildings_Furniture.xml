@@ -2,7 +2,7 @@
 <Defs>
  
   <ThingDef ParentName="TableGatherSpotBase">
-    <defName>HE_Table_2x4</defName>
+    <defName>HE_Table_TwoXFour</defName>
     <label>High Elf Table (2x4)</label>
     <graphicData>
       <texPath>Things/Building/Furniture/Table_Two_x_Four/Table_Two_x_Four</texPath>
