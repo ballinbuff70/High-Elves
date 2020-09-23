@@ -6,7 +6,6 @@
     <label>High Elf Table (2x4)</label>
     <graphicData>
       <texPath>Things/Building/Furniture/Table_Two_x_Four/Table_Two_x_Four</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.9,6)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -24,10 +23,10 @@
     </statBases>
     <costList>
 		<WoodLog>140</WoodLog>
-		<Gold>4</Gold>
+		<Gold>5</Gold>
+	        <Cloth>40</Cloth>
     </costList>
-	<size>(2,4)</size>
-	<designationCategory>AOMorefurniture</designationCategory>
+    <size>(2,4)</size>
   </ThingDef>
   
 </Defs>
