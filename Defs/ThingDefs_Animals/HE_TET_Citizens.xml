@@ -57,7 +57,7 @@
       <li Class="CompProperties_Shearable">
         <woolDef>Gold</woolDef>
         <shearIntervalDays>6</shearIntervalDays>
-        <woolAmount>20</woolAmount>
+        <woolAmount>80</woolAmount>
       </li>
     </comps>	
     <race>
