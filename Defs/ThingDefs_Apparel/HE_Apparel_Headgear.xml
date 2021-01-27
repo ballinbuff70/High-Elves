@@ -456,6 +456,58 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HE_EllyrianReaver</defName>
+    <label>High Elf Ellyrian Reaver Helm</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/HE_EllyrianReaver/HE_EllyrianReaver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>	  
+    </graphicData>
+    <costList>
+		<Steel>40</Steel>
+		<Resource_IthilmarIngot>2</Resource_IthilmarIngot>
+    </costList>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+		<statBases>
+				<WorkToMake>1000</WorkToMake>
+				<MaxHitPoints>250</MaxHitPoints>
+				<Mass>2</Mass>
+				<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+		<li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/HE_EllyrianReaver/HE_EllyrianReaver</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+		<li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Regal</defName>
     <label>High Elf Regalia Helm</label>
     <description>PLACEHOLDER</description>
