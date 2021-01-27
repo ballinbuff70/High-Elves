@@ -6,7 +6,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_CoaxWhip</defName>
     <label>Coax Whip</label>
-    <description>A hand weapon of Eshin design, can be used for slashing or stabbing.</description>
+    <description>PLACEHOLDER</description>
     <graphicData>
       <texPath>Things/Weapons/CoaxWhip</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -75,7 +75,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_One</defName>
     <label>High Elf Spear (One)</label>
-    <description>Wield the mighty spear, yes yes!</description>
+    <description>PLACEHOLDER</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_One</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -149,7 +149,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Two</defName>
     <label>High Elf Spear (Two)</label>
-    <description>Wield the mighty spear, yes yes!</description>
+    <description>PLACEHOLDER</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_Two</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -221,9 +221,83 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_Spear_Three</defName>
+    <label>High Elf Spear (Three)</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/Spear_Three</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>25</WoodLog>
+      <Steel>35</Steel>
+      <Resource_IthilmarIngot>1</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>MM_MeleeWeaponT2</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Lance</defName>
     <label>High Elf Lance</label>
-    <description>Wield the mighty spear, yes yes!</description>
+    <description>PLACEHOLDER</description>
     <graphicData>
       <texPath>Things/Weapons/Lance</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -278,6 +352,80 @@
           <li>Cut</li>
         </capacities>
         <power>14</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_Spear_PhoenixGPoleAx</defName>
+    <label>High Elf Phoenix Guard Pole Ax</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/Lance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>45</WoodLog>
+      <Steel>145</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>MM_MeleeWeaponT2</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
@@ -691,6 +839,86 @@
 		  </li>
 		</tools>
 	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_Saphery</defName>
+		<label>High Elf Sword of Saphery</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Sword_Regal</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+    <costList>
+		<Steel>135</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>20</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>26</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+		
+	<comps>
+		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+			<hasEnchantment>true</hasEnchantment>
+			<arcaneSpectre>true</arcaneSpectre>
+			<maxMP>0.15</maxMP>
+			<maxMPTier>Standard</maxMPTier>
+			<mpRegenRate>0.08</mpRegenRate>
+			<mpRegenRateTier>Standard</mpRegenRateTier>
+			<mpCost>0.1</mpCost>
+			<mpCostTier>Negative</mpCostTier>
+			<arcaneRes>0.08</arcaneRes>
+			<arcaneResTier>Standard</arcaneResTier>
+		</li>
 		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
 			<angleAdjustmentEast>95</angleAdjustmentEast>
 			<angleAdjustmentWest>-95</angleAdjustmentWest>
