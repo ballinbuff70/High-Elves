@@ -7,8 +7,8 @@
             <alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>O21_SunElf_Colonist</li>
-						<li>O21_SunElf_Tribal</li>
+						<li>O21_SunElfColonist</li>
+						<li>O21_SunElfTribal</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -16,8 +16,8 @@
             <alienrefugeekinds>
 				<li>
 					<kindDefs>
-						<li>O21_SunElf_Colonist</li>
-						<li>O21_SunElf_Tribal</li>
+						<li>O21_SunElfColonist</li>
+						<li>O21_SunElfTribal</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -27,7 +27,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>O21_SunElf_Colonist</li>
+								<li>O21_SunElfColonist</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -40,13 +40,13 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>O21_SunElf_Tribal</li>
+								<li>O21_SunElfTribal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>O21_SunElfPlayerTribal</li> 
+						<li>O21_SunElfPlayerTribe</li> 
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -55,7 +55,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>O21_SunElf_Colonist</li>
+								<li>O21_SunElfColonist</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -68,13 +68,13 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>O21_SunElf_Tribal</li>
+								<li>O21_SunElfTribal</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>O21_SunElfPlayerTribal</li> 
+						<li>O21_SunElfPlayerTribe</li> 
 					</factionDefs>
 				</li>
             </alienwandererkinds>
@@ -84,7 +84,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="O21_Alien_ElfBase">
 		<defName>O21_Alien_SunElf</defName>
 		<label>Sun Elf</label>
-		<description>The sun elves, also sometimes known as gold elves, sometimes as high elves due to their stereotypically elitist ways, and Ar-tel-quessir[2] in their own language were a subrace of high elves historically rare in Faerûn due to the Retreat, in which the majority abandoned the continent for Evermeet, although during the Era of Upheaval they began returning to the mainland. Haughty and arrogant, sun elves typically felt themselves superior to most other races, including other Tel-quessir.</description>
+		<description>The sun elves, also sometimes known as gold elves, sometimes as high elves due to their stereotypically elitist ways, and Ar-tel-quessir in their own language were a subrace of high elves historically rare in Faerûn due to the Retreat, in which the majority abandoned the continent for Evermeet, although during the Era of Upheaval they began returning to the mainland. Haughty and arrogant, sun elves typically felt themselves superior to most other races, including other Tel-quessir.</description>
 		<alienRace>
 			<raceRestriction>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
@@ -102,10 +102,6 @@
                 <li>VC_Apparel_HE_Archer</li>
                 <li>VC_Apparel_HE_Mail_Coat</li>
                 <li>VC_Apparel_HE_Golden_Mail_Coat</li>
-                <li>RH_TET_HE_SpearmanOne</li>
-                <li>RH_TET_HE_SpearmanTwo</li>
-                <li>RH_TET_HE_SpearmanThree</li>
-                <li>RH_TET_HE_SpearmanFour</li>
                 <li>VC_LoremasterOrb</li>
                 <li>VC_TalismanofSaphery</li>
                 <li>VC_TeachingsoftheLifeBloom</li>
@@ -127,26 +123,6 @@
             </apparelList>
 			</raceRestriction>		
 			<generalSettings>
-				<disallowedTraits>
-					<li> <defName>AnnoyingVoice</defName> </li>
-					<li> <defName>CreepyBreathing</defName> </li>
-					<li> <defName>Pyromaniac</defName> </li>
-					<li> <defName>Wimp</defName> </li>
-					<li> <defName>Masochist</defName> </li>
-					<li> <defName>NightOwl</defName> </li>
-					<li> <defName>Jealous</defName> </li>
-					<li> <defName>Nudist</defName> </li>
-					<li> <defName>Transhumanist</defName> </li>
-					<li> <defName>BodyPurist</defName> </li>
-					<li> <defName>Psychopath</defName> </li>
-				</disallowedTraits>
-            <forcedRaceTraitEntries>
-                <li>
-                    <defName>Beauty</defName>
-                    <degree>2</degree>
-                    <chance>50</chance>
-                </li>
-            </forcedRaceTraitEntries>				
 				<alienPartGenerator>
                     <colorChannels>
                         <li>
@@ -203,9 +179,9 @@
 			</generalSettings>
 		</alienRace>
 		<statBases>
-			<GlobalLearningFactor>1.25</GlobalLearningFactor>
-			<NegotiationAbility>1.35</NegotiationAbility>
-			<TradePriceImprovement>1.35</TradePriceImprovement>
+			<GlobalLearningFactor>1.2</GlobalLearningFactor>
+			<NegotiationAbility>1.2</NegotiationAbility>
+			<TradePriceImprovement>1.2</TradePriceImprovement>
 		</statBases>
 		<race>
 			<leatherDef>O21_Leather_SunElf</leatherDef>

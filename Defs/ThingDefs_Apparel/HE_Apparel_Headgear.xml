@@ -713,7 +713,7 @@
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Phoenix</defName>
-    <label>High Elf Phoenix Helm</label>
+    <label>High Elf Phoenix Guard Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
     <graphicData>

@@ -4,8 +4,8 @@
   <!-- Tier 1 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>HE_Arrow_TierOne</defName>
-    <label>Ranger Arrow</label>
+    <defName>LotRE_Arrow_Mirkwood</defName>
+    <label>mirkwood arrow</label>
     <graphicData>
       <texPath>Things/Projectiles/MM_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -20,7 +20,7 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>HE_Bow_Ranger</defName>
+    <defName>LotRE_Bow_Mirkwood</defName>
     <label>High Elf Ranger Bow</label>
     <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
     <graphicData>
@@ -55,7 +55,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HE_Arrow_TierOne</defaultProjectile>
+        <defaultProjectile>LotRE_Arrow_Mirkwood</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>38</range>
         <soundCast>MirkwoodBow</soundCast>
@@ -77,8 +77,8 @@
   <!-- Tier 2 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>HE_Arrow_TierTwo</defName>
-    <label>Aeir arrow</label>
+    <defName>LotRE_Arrow_Galadhrim</defName>
+    <label>galadhrim arrow</label>
     <graphicData>
       <texPath>Things/Projectile/MM_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -93,9 +93,9 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>HE_Bow_Aeir</defName>
+    <defName>LotRE_Bow_Galadhrim</defName>
     <label>High Elf Aeir Bow</label>
-    <description>The longbow preferred by the best High Elf archers. A powerful long range weapon.</description>
+    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -134,7 +134,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HE_Arrow_TierTwo</defaultProjectile>
+        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <minRange>1.5</minRange>
         <range>44</range>

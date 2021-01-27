@@ -6,9 +6,9 @@
     <label>High Elf Table (2x4)</label>
     <graphicData>
       <texPath>Things/Building/Furniture/Table_Two_x_Four/Table_Two_x_Four</texPath>
-	<graphicClass>Graphic_Multi</graphicClass>
-	<shaderType>CutoutComplex</shaderType>    
-	<color>(255, 255, 255)</color>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
       <drawSize>(3.9,6)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>

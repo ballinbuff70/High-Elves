@@ -8,8 +8,12 @@
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/WorkBuildings/Smithery/Smithery</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
+      <shadowData>
+        <volume>(2.8, 0.3, 0.54)</volume>
+        <offset>(0, 0, -0.18)</offset>
+      </shadowData>	  
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -84,6 +88,10 @@
         <cornerBL>Damage/Corner</cornerBL>
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
+      <shadowData>
+        <volume>(2.8, 0.3, 0.54)</volume>
+        <offset>(0, 0, -0.18)</offset>
+      </shadowData>	  
     </graphicData>
     <costList>
       <Steel>100</Steel>
@@ -118,7 +126,7 @@
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>Silver</li>
+            <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -186,7 +194,7 @@
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>Silver</li>
+            <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -251,11 +259,11 @@
     </building>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>Silver</li>
+            <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
