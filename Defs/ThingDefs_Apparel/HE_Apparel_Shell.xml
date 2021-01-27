@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>VC_Apparel_HE_Mage</defName>
-    <label>High Elf Mage Armoring</label>
+    <label>High Elf Mage Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
@@ -77,7 +77,7 @@
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>VC_Apparel_HE_MageMaster</defName>
-    <label>High Elf Mage Master Armoring</label>
+    <label>High Elf Mage Master Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
