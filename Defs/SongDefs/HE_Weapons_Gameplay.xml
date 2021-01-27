@@ -8,7 +8,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Weapons/ElfLongbow</clipPath>
+            <clipPath>Weapons/BowOne</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -30,7 +30,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Weapons/MirkwoodBow</clipPath>
+            <clipPath>Weapons/BowTwo</clipPath>
           </li>
         </grains>      
         <volumeRange>
