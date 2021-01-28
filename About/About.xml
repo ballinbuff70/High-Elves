@@ -9,6 +9,63 @@
 	<description>
 High Elves brought to Rimworld!
 	</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>unlimitedhugs.hugslib</packageId>
+			<displayName>HugsLib</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=818773962</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>jecrell.jecstools</packageId>
+			<displayName>JecsTools</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2195729899</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>sickboywi.theendtimes.theendtimes</packageId>
+			<displayName>Rimhammer - The End Times</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2007275942</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>sickboywi.theendtimes.dwarfs</packageId>
+			<displayName>Rimhammer - The End Times - Dwarves</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2016381892</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>isorex.craftablepawnframework</packageId>
+			<displayName>Craftable Pawn Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2177576927</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>vindar.medievaltimes</packageId>
+			<displayName>Medieval Times</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2018388116</steamWorkshopUrl>
+		</li>	
+		<li>
+			<packageId>vanillaexpanded.vfesecurity</packageId>
+			<displayName>Vanilla Expanded Security</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>torann.arimworldofmagic</packageId>
+			<displayName>A RimWorld of Magic</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956</steamWorkshopUrl>
+		</li>			
+		<li>
+			<packageId>neronix17.toolbox</packageId>
+			<displayName>[O21] Toolbox</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>neronix17.fr.compilation</packageId>
+			<displayName>[O21] Forgotten Realms</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669</steamWorkshopUrl>
+		</li>
+	</modDependencies>		
 	<loadAfter>
 		<li>brrainz.harmony</li>
 		<li>unlimitedhugs.hugslib</li>
