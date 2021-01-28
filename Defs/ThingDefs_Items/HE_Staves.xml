@@ -439,7 +439,7 @@
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>VC_Staff_Five</defName>
-    <label>Staff of the Golden Wings</label>
+    <label>Staff of the Golden Phoenix</label>
     <description>Placeholder</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Five</texPath>
