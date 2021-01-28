@@ -246,6 +246,64 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HE_ShadowWarrior</defName>
+    <label>High Elf Shadow Warrior Helm</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/HE_Shadow_Warrior/HE_Shadow_Warrior</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
+    </graphicData>
+    <costList>
+		<Steel>80</Steel>
+		<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
+    </costList>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+		<statBases>
+				<WorkToMake>1000</WorkToMake>
+				<MaxHitPoints>250</MaxHitPoints>
+				<Mass>2</Mass>
+				<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	 <equippedStatOffsets>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+	  <MoveSpeed>0.1</MoveSpeed>
+	 <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+	  <AimingDelayFactor>-0.15</AimingDelayFactor> 
+    </equippedStatOffsets>		
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+		<li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/HE_Shadow_Warrior/HE_Shadow_Warrior</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+		<li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
   
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Gilded</defName>
