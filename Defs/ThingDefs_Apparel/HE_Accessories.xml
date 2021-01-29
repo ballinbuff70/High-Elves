@@ -3,7 +3,7 @@
  
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_LoremasterOrb</defName>
+    <defName>HE_LoremasterOrb</defName>
     <label>Loremaster Orb</label>
     <description>[Workspeed: +20%] Countless are the innocent souls whose life essence has flowed into this bewitched goblet. Those that drink from it are rejuvenated with new power..</description>
     <graphicData>
@@ -53,7 +53,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_TalismanofSaphery</defName>
+    <defName>HE_TalismanofSaphery</defName>
     <label>Talisman of Saphery</label>
     <description>PLACEHOLDER</description>
     <graphicData>
@@ -91,7 +91,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_TeachingsoftheLifeBloom</defName>
+    <defName>HE_TeachingsoftheLifeBloom</defName>
     <label>Teachings of the Life Bloom</label>
     <description>PLACEHOLDER</description>
     <graphicData>
@@ -146,7 +146,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_TalismanofLoec</defName>
+    <defName>HE_TalismanofLoec</defName>
     <label>Talisman of Loec</label>
     <description>PLACEHOLDER</description>
     <graphicData>
@@ -186,7 +186,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_EllyrianRangerTraining</defName>
+    <defName>HE_EllyrianRangerTraining</defName>
     <label>Ellyrian Ranger Training</label>
     <description>PLACEHOLDER</description>
     <graphicData>
@@ -226,7 +226,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_SwordMasterofHoethTraining</defName>
+    <defName>HE_SwordMasterofHoethTraining</defName>
     <label>Sword Master of Hoeth Training</label>
     <description>PLACEHOLDER</description>
     <graphicData>
@@ -265,7 +265,7 @@
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
-    <defName>VC_MarineMerchantPurse</defName>
+    <defName>HE_MarineMerchantPurse</defName>
     <label>Marine Merchant Purse</label>
     <description>PLACEHOLDER</description>
     <graphicData>
