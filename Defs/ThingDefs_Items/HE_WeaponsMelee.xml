@@ -517,6 +517,80 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_Spear_Trident</defName>
+    <label>High Elf Trident</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/Spear_Trident</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>45</WoodLog>
+      <Steel>145</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>MM_MeleeWeaponT2</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_PhoenixGPoleAx</defName>
     <label>High Elf Phoenix Guard Pole Ax</label>
     <description>PLACEHOLDER</description>
