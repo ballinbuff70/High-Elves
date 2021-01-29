@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<TraitDef>
-		<defName>SimpleMindedUndead</defName>
+		<defName>HighElfSupremacy</defName>
 		<commonality>0.001</commonality>
 		<degreeDatas>
 			<li>
@@ -12,16 +12,16 @@
 	</TraitDef>
 
 	<ThoughtDef>
-		<defName>MoodOffsetSimpleMindedRobot</defName>
+		<defName>MoodOffsetHighElfSupremacy</defName>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
 		<validWhileDespawned>true</validWhileDespawned>
 		<requiredTraits>
-			<li>SimpleMindedUndead</li>
+			<li>HighElfSupremacy</li>
 		</requiredTraits>
 		<stages>
 			<li>
 				<label>High Elf Supremacy</label>
-				<description>What wonderous accomplishments we've achieved...</description>
+				<description>What wonderous accomplishments the Asur achieved...</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
 		</stages>
