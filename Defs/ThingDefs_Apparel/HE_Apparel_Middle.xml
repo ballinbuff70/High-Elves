@@ -4,7 +4,7 @@
   <!-- HE_Archer -->
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Archer</defName>
+    <defName>Apparel_HE_Archer</defName>
     <label>High Elf Archer Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -64,7 +64,7 @@
   <!-- HE_Archer -->
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Mail_Coat</defName>
+    <defName>Apparel_HE_Mail_Coat</defName>
     <label>High Elf Mail Coat</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -124,7 +124,7 @@
   <!-- HE_Archer -->
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Golden_Mail_Coat</defName>
+    <defName>Apparel_HE_Golden_Mail_Coat</defName>
     <label>High Elf Golden Mail Coat</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
