@@ -4,7 +4,7 @@
  <!-- Magic -->
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Mage</defName>
+    <defName>Apparel_HE_Mage</defName>
     <label>High Elf Mage Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -76,7 +76,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_MageMaster</defName>
+    <defName>Apparel_HE_MageMaster</defName>
     <label>High Elf Mage Master Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -150,7 +150,7 @@
   <!-- Regular -->
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Archer_Quiver</defName>
+    <defName>Apparel_HE_Archer_Quiver</defName>
     <label>High Elf Archer Quiver</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -210,7 +210,7 @@
   </ThingDef>	
 	
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Archer_LightArm</defName>
+    <defName>Apparel_HE_Archer_LightArm</defName>
     <label>High Elf Light Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -268,7 +268,7 @@
   </ThingDef>
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Spearman</defName>
+    <defName>Apparel_HE_Spearman</defName>
     <label>High Elf Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -326,7 +326,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Spearman_Flaired</defName>
+    <defName>Apparel_HE_Spearman_Flaired</defName>
     <label>High Elf Flair Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -384,7 +384,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_LothernSeaguardArmor</defName>
+    <defName>Apparel_HE_LothernSeaguardArmor</defName>
     <label>High Elf Lothern Seaguard Armor</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -448,7 +448,7 @@
   <!-- High Tier -->
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_White_Lion</defName>
+    <defName>Apparel_HE_White_Lion</defName>
     <label>High Elf White Lion Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -506,7 +506,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_LothCaptain</defName>
+    <defName>Apparel_HE_LothCaptain</defName>
     <label>High Elf Lothern Sea Captain Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -565,7 +565,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Regal</defName>
+    <defName>Apparel_HE_Regal</defName>
     <label>High Elf Regal Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -624,7 +624,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Dragon_Prince</defName>
+    <defName>Apparel_HE_Dragon_Prince</defName>
     <label>High Elf Dragon Prince Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -683,7 +683,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>VC_Apparel_HE_Phoenix</defName>
+    <defName>Apparel_HE_Phoenix</defName>
     <label>High Elf Phoenix Hauberk</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
