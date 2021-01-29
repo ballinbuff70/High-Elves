@@ -10,7 +10,12 @@
 				<maleGenderProbability>0.5</maleGenderProbability>
 				<immuneToAge>True</immuneToAge>
 				<humanRecipeImport>true</humanRecipeImport>
-				<forcedRaceTraitEntries />
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>HighElfSupremacy</defName>
+						<chance>60</chance>
+					</li>
+				</forcedRaceTraitEntries>
 				<disallowedTraits>
 					<li>
                         <defName>Pyromaniac</defName>
