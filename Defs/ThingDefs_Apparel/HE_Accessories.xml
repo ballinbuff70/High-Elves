@@ -205,10 +205,10 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.18</MoveSpeed>
-	  <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
-	  <AimingDelayFactor>-0.15</AimingDelayFactor>
-	  <MeleeHitChance>-0.1</MeleeHitChance>
-	  <MeleeDodgeChance>-0.05</MeleeDodgeChance>
+	  <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+	  <AimingDelayFactor>0.05</AimingDelayFactor>
+	  <MeleeHitChance>0.05</MeleeHitChance>
+	  <MeleeDodgeChance>0.05</MeleeDodgeChance>
     </equippedStatOffsets>			
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
