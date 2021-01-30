@@ -683,6 +683,68 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
+    <defName>Apparel_HE_SwordMaster</defName>
+    <label>High Elf Sword Master Hoeth Hauberk</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Shell/HE_SwordMaster/HE_SwordMaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
+    </graphicData>
+    <costList>
+		<Steel>550</Steel>
+		<Gold>6</Gold>
+		<Resource_IthilmarIngot>18</Resource_IthilmarIngot>
+    </costList>
+	<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+	<statBases>
+			<WorkToMake>2400</WorkToMake>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>1.25</Mass>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	 <equippedStatOffsets>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+	  <MoveSpeed>0.1</MoveSpeed>
+	  <MeleeHitChance>0.055</MeleeHitChance>
+	  <MeleeHitChance>0.1</MeleeHitChance>
+	  <MeleeDodgeChance>0.1</MeleeDodgeChance>
+    </equippedStatOffsets>	
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/HE_SwordMaster/HE_SwordMaster</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+		<li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_HE_Phoenix</defName>
     <label>High Elf Phoenix Hauberk</label>
     <description>PLACEHOLDER</description>
