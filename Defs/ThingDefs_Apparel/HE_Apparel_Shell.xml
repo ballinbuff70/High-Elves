@@ -35,7 +35,7 @@
     </equippedStatOffsets>	
     <recipeMaker>
       <recipeUsers>
-        <li>HighElves_Smithery</li>
+        <li>HighElves_MagicStation</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>10</Crafting>
@@ -107,7 +107,7 @@
     </equippedStatOffsets>	
     <recipeMaker>
       <recipeUsers>
-        <li>HighElves_Smithery</li>
+        <li>HighElves_MagicStation</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>12</Crafting>
