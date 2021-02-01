@@ -32,7 +32,7 @@
     </statBases>
     <recipeMaker>
       <recipeUsers>
-        <li>HighElves_Smithery</li>
+        <li>HighElves_MagicStation</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -98,7 +98,7 @@
     </statBases>
     <recipeMaker>
       <recipeUsers>
-        <li>HighElves_Smithery</li>
+        <li>HighElves_MagicStation</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -130,6 +130,72 @@
 			<mpCost>0.1</mpCost>
 			<mpCostTier>Negative</mpCostTier>
 			<arcaneRes>0.15</arcaneRes>
+			<arcaneResTier>Standard</arcaneResTier>
+		</li>
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HE_MasterMageHelm</defName>
+    <label>High Elf Master Mage Helm</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/HE_MageMaster/HE_MageMaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
+    </graphicData>
+    <costList>
+		<Steel>120</Steel>
+		<Gold>25</Gold>
+		<Resource_IthilmarIngot>45</Resource_IthilmarIngot>
+    </costList>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+	<statBases>
+				<WorkToMake>1700</WorkToMake>
+				<MaxHitPoints>450</MaxHitPoints>
+				<Mass>1.5</Mass>
+				<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_MagicStation</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/HE_MageMaster/HE_MageMaster</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+		<li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	<comps>
+		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+			<hasEnchantment>true</hasEnchantment>
+			<arcaneSpectre>true</arcaneSpectre>
+			<maxMP>0.25</maxMP>
+			<maxMPTier>Standard</maxMPTier>
+			<mpRegenRate>0.25</mpRegenRate>
+			<mpRegenRateTier>Standard</mpRegenRateTier>
+			<mpCost>0.15</mpCost>
+			<mpCostTier>Negative</mpCostTier>
+			<arcaneRes>0.25</arcaneRes>
 			<arcaneResTier>Standard</arcaneResTier>
 		</li>
 	</comps>	
