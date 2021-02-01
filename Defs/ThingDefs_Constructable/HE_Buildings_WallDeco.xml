@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>HE_WallDeco_One</defName>
+    <label>High Elf Phoenix Banner</label>
+    <description>High Elf Phoenix Banner.</description>
+    <graphicData>	
+      <texPath>Things/Building/Wall_Deco/HighElfBannerOne/Poster</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>8</Beauty>
+      <Flammability>0.75</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+      <Cloth>40</Cloth>
+    </costList>
+    <uiIconScale>1</uiIconScale>
+	<clearBuildingArea>false</clearBuildingArea>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>HE_WallDeco_Two</defName>
+    <label>High Elf Asur Banner</label>
+    <description>High Elf Asur Banner.</description>
+    <graphicData>	
+      <texPath>Things/Building/Wall_Deco/HighElfAsurSymbol/HighElfAsurSymbol</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Mass>15</Mass>
+	  <Beauty>8</Beauty>
+      <Flammability>0.75</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+      <Cloth>40</Cloth>
+    </costList>
+    <uiIconScale>1</uiIconScale>
+	<clearBuildingArea>false</clearBuildingArea>
+	<rotatable>true</rotatable>
+	<building>
+		<isInert>true</isInert>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+  </ThingDef>
+ 
+</Defs>
