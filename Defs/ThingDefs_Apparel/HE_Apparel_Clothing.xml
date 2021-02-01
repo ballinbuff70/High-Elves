@@ -152,7 +152,7 @@
     </equippedStatOffsets>	
     <recipeMaker>
       <recipeUsers>
-        <li>HighElves_Smithery</li>
+        <li>HighElves_MagicStation</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>4</Crafting>
