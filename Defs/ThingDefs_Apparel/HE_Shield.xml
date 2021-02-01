@@ -8,7 +8,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>		
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -101,7 +101,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -194,7 +194,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -287,7 +287,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -380,7 +380,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -473,7 +473,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -566,7 +566,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -659,7 +659,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -752,7 +752,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -845,7 +845,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -938,7 +938,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -1031,7 +1031,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -1124,7 +1124,7 @@
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
-				<li>HighElves_Smithery</li>
+				<li>HighElves_ShieldStation</li>
 			</recipeUsers>			
 			<skillRequirements>
 				<Crafting>5</Crafting>
