@@ -49,8 +49,6 @@
     </recipeMaker>
   </ThingDef>
 
-    <!-- Slave Rune -->
-
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofSaphery</defName>
@@ -86,8 +84,6 @@
       <soundWorking>Recipe_Smith</soundWorking>
     </recipeMaker>
   </ThingDef>
-
-    <!-- NecromanticPowerStone -->
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
@@ -142,8 +138,6 @@
     </recipeMaker>
   </ThingDef>
 
-     <!-- RingofUnlife -->
-
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofLoec</defName>
@@ -182,8 +176,6 @@
     </recipeMaker>
   </ThingDef>
 
-     <!-- RangerRune -->
-
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_EllyrianRangerTraining</defName>
@@ -194,7 +186,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Gold>15</Gold>
+      <Gold>45</Gold>
     </costList>
     <tickerType>Normal</tickerType>
     <statBases>
@@ -222,8 +214,6 @@
     </recipeMaker>
   </ThingDef>
 
-     <!-- Sword Master of Hoeth Training -->
-
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_SwordMasterofHoethTraining</defName>
@@ -234,7 +224,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Gold>15</Gold>
+      <Gold>45</Gold>
     </costList>
     <tickerType>Normal</tickerType>
     <statBases>
@@ -260,8 +250,6 @@
       <soundWorking>Recipe_Smith</soundWorking>
     </recipeMaker>
   </ThingDef>
- 
-     <!-- Marine Merchant Purse -->
 
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
@@ -273,7 +261,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Gold>10</Gold>
+      <Gold>25</Gold>
     </costList>
     <tickerType>Normal</tickerType>
     <statBases>
