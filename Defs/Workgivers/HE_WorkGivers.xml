@@ -69,4 +69,21 @@
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
 
+  <WorkGiverDef>
+    <defName>VC_DoBillsHighElvesShieldStationStation</defName>
+    <label>Craft shields.</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>HighElves_ShieldStation</li>
+    </fixedBillGiverDefs>
+    <verb>Ship</verb>
+    <gerund>Shipping at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
 </Defs>
