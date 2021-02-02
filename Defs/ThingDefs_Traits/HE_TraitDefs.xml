@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>HighElfSupremacy</defName>
+		<commonality>0.001</commonality>
+		<degreeDatas>
+			<li>
+				<label>High Elf Supremacy</label>
+				<description>High Elves believe themselves to be "better" than the lesser races.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<ThoughtDef>
+		<defName>MoodOffsetHighElfSupremacy</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>HighElfSupremacy</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>High Elf Supremacy</label>
+				<description>What wonderous accomplishments the Asur achieved...</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  
+</Defs>
