@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+    <defName>HE_HighElvesColony</defName>
+    <label>High Elves Colony</label>
+    <description>High Elves Colony.</description>
+    <pawnSingular>High Elf</pawnSingular>
+    <pawnsPlural>High Elves</pawnsPlural>
+    <isPlayer>true</isPlayer>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>HE_Backstories_Standard</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Things/World/HighElvesIconPlayer</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <factionNameMaker>NamerHighElvesEmpire</factionNameMaker>
+    <settlementNameMaker>NamerHighElvesCities</settlementNameMaker>
+    <basicMemberKind>HighElf_PWNKND_Citizens</basicMemberKind>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Tribal</li>
+      <li>Rural</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+  </FactionDef>
+
+</Defs>
