@@ -37,7 +37,7 @@
 	<modExtensions>
 		<li Class="CraftablePawnFramework.MyDefExtension">
 			<setSkillLevel>true</setSkillLevel>
-			<skillLevelAt>10</skillLevelAt>
+			<skillLevelAt>6</skillLevelAt>
 		</li>
 	</modExtensions>	
   </PawnKindDef>
