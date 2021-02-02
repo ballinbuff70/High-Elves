@@ -712,7 +712,6 @@
 	 <equippedStatOffsets>
       <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
 	  <MoveSpeed>0.1</MoveSpeed>
-	  <MeleeHitChance>0.055</MeleeHitChance>
 	  <MeleeHitChance>0.1</MeleeHitChance>
 	  <MeleeDodgeChance>0.1</MeleeDodgeChance>
     </equippedStatOffsets>	
