@@ -75,6 +75,32 @@
                 <li>VC_Apparel_HE_Phoenix</li>
                 <li>Apparel_HE_MageHeadpiece</li>
                 <li>VC_Apparel_HE_LothernSeaguardArmor</li>
+                <li>HE_Apparel_ShadowWarriorRobe</li>
+                <li>Apparel_HE_MageHelm</li>
+                <li>Apparel_HE_MasterMageHelm</li>
+                <li>Apparel_HE_AvelornArcher</li>
+                <li>Apparel_HE_ShadowWarrior</li>
+                <li>Apparel_HE_Spearman_Aieril</li>
+                <li>Apparel_HE_EllyrianReaver</li>
+                <li>Apparel_HE_LothernCaptain</li>
+                <li>Apparel_HE_Spearman_LothernCaptainHelm</li>
+                <li>Apparel_HE_MageMaster</li>
+                <li>Apparel_HE_Archer_LightArm</li>
+                <li>Apparel_HE_LothCaptain</li>
+                <li>Apparel_HE_SwordMaster</li>
+                <li>RH_TET_HE_Shield_One</li>
+                <li>RH_TET_HE_Shield_Two</li>
+                <li>RH_TET_HE_Shield_Three</li>
+                <li>RH_TET_HE_Shield_Four</li>
+                <li>RH_TET_HE_CaledorShield</li>
+                <li>RH_TET_HE_ChraceShield</li>
+                <li>RH_TET_HE_EllyrianShield</li>
+                <li>RH_TET_HE_LothernShield</li>
+                <li>RH_TET_HE_NagarytheShield</li>
+                <li>RH_TET_HE_ShieldShield</li>
+                <li>RH_TET_HE_TwoShield</li>
+                <li>RH_TET_HE_ThreeShield</li>
+                <li>RH_TET_HE_OneShield</li>
             </apparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 				<researchList>
