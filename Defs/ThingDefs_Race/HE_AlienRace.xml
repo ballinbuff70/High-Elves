@@ -51,30 +51,14 @@
                 <li>Apparel_HE_Spearman_Regal</li>
                 <li>Apparel_HE_Spearman_Wrapped</li>
                 <li>Apparel_HE_Regal</li>
+                <li>Apparel_HE_Spearman_Regal_Headpiece</li>
                 <li>Apparel_HE_Dragon_Prince</li>
+                <li>Apparel_HE_Dragon_Prince_Helm</li>
                 <li>Apparel_HE_Phoenix</li>
                 <li>HE_Apparel_MageRobe</li>
-                <li>VC_Apparel_HE_Archer</li>
-                <li>VC_Apparel_HE_Mail_Coat</li>
-                <li>VC_Apparel_HE_Golden_Mail_Coat</li>
-                <li>VC_LoremasterOrb</li>
-                <li>VC_TalismanofSaphery</li>
-                <li>VC_TeachingsoftheLifeBloom</li>
-                <li>VC_TalismanofLoec</li>
-                <li>VC_EllyrianRangerTraining</li>
-                <li>VC_SwordMasterofHoethTraining</li>
-                <li>VC_MarineMerchantPurse</li>
                 <li>HE_Apparel_Robe</li>
-                <li>VC_Apparel_HE_Mage</li>
-                <li>VC_Apparel_HE_Archer_Quiver</li>
-                <li>VC_Apparel_HE_Spearman</li>
-                <li>VC_Apparel_HE_Spearman_Flaired</li>
-                <li>VC_Apparel_HE_White_Lion</li>
-                <li>VC_Apparel_HE_Regal</li>
-                <li>VC_Apparel_HE_Dragon_Prince</li>
-                <li>VC_Apparel_HE_Phoenix</li>
                 <li>Apparel_HE_MageHeadpiece</li>
-                <li>VC_Apparel_HE_LothernSeaguardArmor</li>
+                <li>Apparel_HE_LothernSeaguardArmor</li>
                 <li>HE_Apparel_ShadowWarriorRobe</li>
                 <li>Apparel_HE_MageHelm</li>
                 <li>Apparel_HE_MasterMageHelm</li>
@@ -88,6 +72,7 @@
                 <li>Apparel_HE_Archer_LightArm</li>
                 <li>Apparel_HE_LothCaptain</li>
                 <li>Apparel_HE_SwordMaster</li>
+                <li>Apparel_HE_Phoenix_Helm</li>
                 <li>RH_TET_HE_Shield_One</li>
                 <li>RH_TET_HE_Shield_Two</li>
                 <li>RH_TET_HE_Shield_Three</li>
@@ -101,6 +86,13 @@
                 <li>RH_TET_HE_TwoShield</li>
                 <li>RH_TET_HE_ThreeShield</li>
                 <li>RH_TET_HE_OneShield</li>
+                <li>HE_LoremasterOrb</li>
+                <li>HE_TalismanofSaphery</li>
+                <li>HE_TeachingsoftheLifeBloom</li>
+                <li>HE_TalismanofLoec</li>
+                <li>HE_EllyrianRangerTraining</li>
+                <li>HE_SwordMasterofHoethTraining</li>
+                <li>HE_MarineMerchantPurse</li>
             </apparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 				<researchList>
