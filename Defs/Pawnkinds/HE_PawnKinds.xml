@@ -4,7 +4,7 @@
   <PawnKindDef>
     <defName>HighElf_PWNKND_Citizen</defName>
     <label>High Elf Citizen</label>
-    <race>Alien_Skaven</race>
+    <race>HE_AlienRace_HighElf</race>
     <backstoryFiltersOverride>
       <li>
         <categories>
