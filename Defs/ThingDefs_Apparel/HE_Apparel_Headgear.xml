@@ -790,7 +790,7 @@
   </ThingDef>	
 	
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Regal</defName>
+    <defName>Apparel_HE_Regal_Helm</defName>
     <label>High Elf Regal Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
