@@ -52,7 +52,8 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -111,7 +112,8 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_ShadowWarrior</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -171,7 +173,8 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Magic_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
