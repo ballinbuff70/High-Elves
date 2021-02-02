@@ -3,10 +3,565 @@
   <!--===================== educated =====================-->
 
   <AlienRace.BackstoryDef>
-    <defName>HE_BSA_Engineer</defName>
-    <title>Asur Engineer</title>
-    <titleShort>Asur Engineer</titleShort>
-    <baseDescription>[PAWN_nameDef] is a XXXX.</baseDescription>
+    <defName>HE_BSA_Architect</defName>
+    <title>Tor Architect</title>
+    <titleShort>Tor Architect</titleShort>
+    <baseDescription>[PAWN_nameDef] is a great Architect of the High Elven cities. Many of the metropolises of Ulthuan are as magnificent and shine bright due to the dedicated work of these Asur architects.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Construction</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Archer</defName>
+    <title>Asuryan Archer</title>
+    <titleShort>Asuryan Archer</titleShort>
+    <baseDescription>[PAWN_nameDef] is trained extensively in the ways the bow. High Elf Archers are disciplined, keen-eyed citizen-militia that serves the armies of Ulthuan as part of their civic duties to protect their kingdom against all threats. As a result of Phoenix King Morvael's introduction of the levy system, over a thousand years ago the majority of Ulthuan's armies are composed of citizen militia. This system made it so all Elves receive military training, whether it be a craftsman, tradesman or artist, they all must fight in defense of Ulthuan in times of war.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_EagleKeeper</defName>
+    <title>Eagle Keeper</title>
+    <titleShort>Eagle Keeper</titleShort>
+    <baseDescription>[PAWN_nameDef] is charged with the tending and communicating with the great eagles of Ulthuan. Great Eagles are the largest birds of prey in the Empire, with a wingspan that measures over thirty feet and having razor-sharp talons. They are an ancient race that has dwelled in the mountains of the Old World since long before the coming of Man. Most of them nest in the Grey Mountains, though a few live along the Worlds Edge Mountains. They are exceedingly intelligent and a few of their eldest are even rumoured to be capable of speaking in the tongues of other races, though they seem to prefer most often to deal with Elves.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_UnicornKeeper</defName>
+    <title>Unicorn Studier</title>
+    <titleShort>Unicorn Studier</titleShort>
+    <baseDescription>[PAWN_nameDef] has been fascinated by their encounters with Unicorns on the Isle of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_DragonKeeper</defName>
+    <title>Dragon Studier</title>
+    <titleShort>Dragon Studier</titleShort>
+    <baseDescription>[PAWN_nameDef] has been fascinated by their encounters with Dragons on the Isle of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Animals</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Loremaster</defName>
+    <title>Loremaster of Hoeth</title>
+    <titleShort>Loremaster</titleShort>
+    <baseDescription>[PAWN_nameDef] is a great Loremaster of the High Elves. Hoeth is the God of Knowledge, Learning and Wisdom, and is the patron of Elven wizards and scholars. Hoeth is prayed to when an Elf faces a difficult quandary or confusing problem, for his wisdom can help see the truth of the matter. Elven wizards also pray to Hoeth when preparing for a powerful magical ritual.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_CharriotRider</defName>
+    <title>Charriot Rider</title>
+    <titleShort>Charriot Rider</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Charriot Rider of the High Elves. Charioteers fight with incredible skill, deft reactions complementing the speed of their straining Elven steeds. Thus do they find passage where lesser mortals could not hope to do so: they weave between enemy units at full speed, raining arrows onto unprotected flanks and raking enemy lines with steel-tipped spears. Only when the enemy is sufficiently weakened do the Tiranoc Charioteers crash into the press of melee in a glorious massed charged, the steeds biting and kicking, the riders thrusting their spears into the black hearts of their foes.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Silverin</defName>
+    <title>Silverin Guard</title>
+    <titleShort>Silverin</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Silverin Guard. The Silverin Guard are an example of the High Elf tendency to save their most prized warriors for the defence of the homeland. Historically tasked with the guardianship of the most valuable Waystones of Tor Yvresse, the Silverin suits of armour are said to have been fashioned in the time of Yvresse’s founding; enchanted mails intended for use in an age when Daemons roamed freely across the kingdom’s hills.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_FlagKeeper</defName>
+    <title>Asuryan Standard Bearer</title>
+    <titleShort>Standard Bearer</titleShort>
+    <baseDescription>[PAWN_nameDef] is charged with carrying the beautiful standard of their noble house into battle against the enemies of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_GatekeeperGuardian</defName>
+    <title>Tor Gatekeeper</title>
+    <titleShort>Tor Gatekeeper</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Tor Gatekeeper. These guardians are entrusted with defending the entrances to the ancient Tors of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_SpireGuardian</defName>
+    <title>Tor Spire Guard</title>
+    <titleShort>Tor Spire Guard</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Tor Spire Guard. These guardians are entrusted with defending the great spires found in the ancient Tors of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_GuardianofCoast</defName>
+    <title>Guardian of the Coasts</title>
+    <titleShort>Seaguard</titleShort>
+    <baseDescription>[PAWN_nameDef] is a guardian of the coasts of Ulthuan. The Lothern Sea Guard are the specialised citizen-militia of the Kingdom of Eataine, fighting as effectively on land as at sea, and are equally resolute when defending the walls and fields of Lothern as they are when battling on the deck of a ship. These dangerous duties require the Sea Guard to maintain a flexible armoury. The vast majority are well-trained in the use of spear, shield and bow — the better to combine the finest aspects of the spear and archer regiments of other cities and realms. Indeed, it is a point of pride in Lothern that the discipline of their warriors far surpasses that of any found elsewhere in Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_IthilmarForger</defName>
+    <title>Ithilmar Forger</title>
+    <titleShort>Ithilmar Forger</titleShort>
+    <baseDescription>[PAWN_nameDef] works in the production and forging of valuable Ithilmar.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Mining</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_ShieldShaper</defName>
+    <title>Asuryan Shield Shaper</title>
+    <titleShort>Asuryan Shield Shaper</titleShort>
+    <baseDescription>[PAWN_nameDef] works in the production and forging of strong shields to be borne into battle by Asuryan soldiers.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Mining</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_AsuryanShrineKeeper</defName>
+    <title>Asuryan Shrine Keeper</title>
+    <titleShort>Asuryan Shrine Keeper</titleShort>
+    <baseDescription>[PAWN_nameDef] works in the fine craftsmanship of creating Asuryan wine.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Plants</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_WineMerchant</defName>
+    <title>Wine Merchant</title>
+    <titleShort>Wine Merchant</titleShort>
+    <baseDescription>[PAWN_nameDef] works in the fine craftsmanship of creating Asuryan wine.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Plants</li>
+      <li>Cooking</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_ApprenticeVaul</defName>
+    <title>Apprentice of Vaul</title>
+    <titleShort>Apprentice of Vaul</titleShort>
+    <baseDescription>[PAWN_nameDef] is a great smith of the High Elves. Vaul is the Elven God of Smiths, and the creator of the legendary artifacts wielded by the gods and heroes of the Elven people.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_HeraldofWind</defName>
+    <title>Herald of Wind</title>
+    <titleShort>Herald of Wind</titleShort>
+    <baseDescription>[PAWN_nameDef] is a member of the regiment Heralds of the Wind which are famed amongst the Reavers of Ellyrion.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Bladelord</defName>
+    <title>Asuryan Bladelord</title>
+    <titleShort>Bladelord</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Asuryan swordmaster. Every swordmaster's weapon is forged specifically for its wielder who carries it proudly into battle.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_RevenantofKhaine</defName>
+    <title>Revenant of Khaine</title>
+    <titleShort>Revenant of Khaine</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Revenant of Khaine. The site of the Altar of Khaine, and the resting place of his Widowmaker, the Blighted Isle is sacred ground both to High Elves and Dark Elves.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_FortrofDawn</defName>
+    <title>Soldier of the Dawn</title>
+    <titleShort>Soldier of the Dawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is a member of the Fortress of Dawn. The spires of this port city are built around a single colossal waystone, a rare and valuable remnant of the days when the sun never set upon the Phoenix King's empire.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_FortrofDusk</defName>
+    <title>Soldier of the Dusk</title>
+    <titleShort>Soldier of the Dusk</titleShort>
+    <baseDescription>[PAWN_nameDef] is a member of the Citadel of Dusk. The Citadel of Dusk is invisible to all save those who serve within its walls. It stands guard over the sea routes to the Turtle Isles and beyon. The fortress' garrison bear banners the color of the night sky.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_GroveKeeper</defName>
+    <title>Keeper of the Forbidden Groves</title>
+    <titleShort>Grove Keeper</titleShort>
+    <baseDescription>[PAWN_nameDef] has been granted the esteemed honor of guarding the Forbidden Groves, fending off marauding creatures with fellflame arrows.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Cadai</defName>
+    <title>Dedicant of the Cadai</title>
+    <titleShort>Cadai Dedicant</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Worshipper of the Cadai. The Cadai tend to represent productive and fundamental aspects of Elven society such as crafting and smithing, motherhood, farming or hunting. The Cadai are openly worshipped and revered by the High Elves and by the Wood Elves, with large temples and shrines as well as clergy and devotees who publicly profess their faith.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -14,7 +569,7 @@
         <amount>5</amount>
       </li>
       <li>
-        <defName>Construction</defName>
+        <defName>Animals</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -27,7 +582,36 @@
     </spawnCategories>
     <requiredWorkTags>
       <li>Crafting</li>
-      <li>Intellectual</li>
+      <li>Animals</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Cytharai</defName>
+    <title>Dedicant of the Cytharai</title>
+    <titleShort>Cytharai Dedicant</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Worshipper of the Cadai. Among the High Elves, worship of the Cytharai is at best frowned upon, and worship of some of them is outright banned. Khaine is only worshipped by High Elven warriors before battle, High Elf warriors ask Khaine for strength but are wary of letting his bloodthirsty influence sway them too much. High Elven sailors pay respect to Mathlann, for none can ignore the power of the sea.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
 
@@ -36,15 +620,111 @@
   <!--===================== educated =====================-->
 
   <AlienRace.BackstoryDef>
-    <defName>HE_BSC_AsurBorn</defName>
-    <title>Asur Born</title>
-    <titleShort>Asur Born</titleShort>
-    <baseDescription>[PAWN_nameDef] was born on Ulthuan.</baseDescription>
+    <defName>HE_BSC_CaledorBorn</defName>
+    <title>Caledor Born</title>
+    <titleShort>Caledorian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Caledor. The Kingdom of Caledor is a thinly populated, mountainous realm. Its sparse population has ever belied its power, for it is here, beneath the blazing peaks of the Dragon Spine Mountains, that the Dragons dwell. Here, long ago, came Caledor Dragontamer. Mightiest of the ancient mages, he bound the fearsome Dragons to his will, using harnesses of enchanted truesteel smelted in the fiery heart of Vaul's Anvil. His descendants named their kingdom Caledor in his honour.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
       <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName>HE_BSC_EataineBorn</defName>
+    <title>Eataine Born</title>
+    <titleShort>Eatainian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Eataine. Eataine is the home of the current Phoenix King, Finubar, and the site of his Phoenix Court. Eataine is dotted with vineyards, villas and summer estates to which the noble families of the city retire. The city is one of the wonders of the known world and the source of Eataine's prosperity.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+    <AlienRace.BackstoryDef>
+    <defName>HE_BSC_EllyrionBorn</defName>
+    <title>Ellyrion Born</title>
+    <titleShort>Ellyrion</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Ellyrion. The Kingdom of Ellyrion is a land of gentle summers and mild winters, of sweeping plains, azure skies and heady pollen. It is famed for its horses, who thunder across moor and heath from dawn to dusk. The steeds of Ellyrion are the swiftest and most noble of four-legged beasts, much prized by nobles of the Ten Kingdoms, and those of the lands beyond. </baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSC_AvelornBorn</defName>
+    <title>Avelorn Born</title>
+    <titleShort>Avelornian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Avelorn. The Kingdom of Avelorn is the oldest of all the Elven realms of Ulthuan. Ancient glamours lie upon its tangled groves, and creatures of legend still walk beneath its eaves. Avelorn is ruled by the Everqueen, the chosen of the Earth Mother, Mistress of the Undying Forest, Preserver of Green Fastness, Observer of the Rites of the Golden Spring, Monarch of one of the Twin Thrones of Ulthuan.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSC_SapheryBorn</defName>
+    <title>Saphery Born</title>
+    <titleShort>Sapherian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Saphery. Saphery is one of the Inner Kingdoms of Ulthuan, located to the southeast of the Sea of Dreams. The Kingdom of Saphery is an enchanted land, with skies that shine with all the colours of the rainbow, hills that move by night and warm rivers that glow with gentle light. Magic courses through the blood of Sapherian Elves, and all of the realm's princes are also mages of awesome power. They are reclusive and idiosyncratic, dwelling in exquisite mansions far from other outposts of civilisation. Each noble's home has its own character that reflects the interests and magical research of its patron.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Shooting</defName>
@@ -58,5 +738,137 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
+ 
+   <AlienRace.BackstoryDef>
+    <defName>HE_BSC_TiranocBorn</defName>
+    <title>Tiranoc Born</title>
+    <titleShort>Tiranocian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Tiranoc. The Kingdom of Tiranoc is the westernmost of Ulthuan's realms. Once it was the fairest of the Elf lands, where majestic snow-capped peaks towered over sweeping flower-strewn plains. Its people were great sailors who colonized many lands to the west. Wealth flowed from these colonies: gold to gild the city's spires, silver to be wrought into the bodywork of chariots, furs for winter wear and medicinal herbs to cure the sick. The Charioteers of Tiranoc, famed throughout the land for their skill and daring, raced between their white marble cities.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>	
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
+    <defName>HE_BSC_NagarytheBorn</defName>
+    <title>Nagarythe Born</title>
+    <titleShort>Nagarythian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Nagarythe. The Kingdom of Nagarythe, now known as the Shadowlands, is a dark and desolate region, but was once the greatest of the Elven kingdoms. Here, the first Phoenix King once held court, and it was here that the greatest battles against Daemonkind were won. That desperate struggle hardened and embittered the folk of Nagarythe, so that other Elves came to regard them as a cruel and bloodthirsty people. After Aenarion's death his son Malekith inherited the kingdom. When Malekith rose against the rightful Phoenix King, he led his warriors in a savage and destructive war. Nagarythe was destroyed and many of its people fled with their evil master to the cold lands of the New World.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>	
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
+    <defName>HE_BSC_CothiqueBorn</defName>
+    <title>Cothique Born</title>
+    <titleShort>Cothiquian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Cothique. The Kingdom of Cothique is a coastal realm, inhabited by shrewd and hardy seafolk. It is a cold realm, battered by chill northeastern winds, and little-loved, save by its own people. Yet even these folk of Cothique are renowned for their wanderlust, and reputedly spend as little time within their own land as possible. Their graceful vessels plough the turbulent northern waters in search of goods and trade with different lands.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>	
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
+    <defName>HE_BSC_ChraceBorn</defName>
+    <title>Chrace Born</title>
+    <titleShort>Chracian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Chrace. The mountains of Chrace are the home of the fearsome white lions. To be counted as a real hunter, an Elf of Chrace must kill one of these regal creatures single-handed, or else tame it to his service. Neither task is an easy one, for the lions are intelligent and canny beasts, making the contest one of wits, as well as strength. The white lion also gives its name to the legendary regiments in the service of the Phoenix Throne: the White Lions, carefully selected warriors who guard the Phoenix King in battle.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>	
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
+    <defName>HE_BSC_YvresseBorn</defName>
+    <title>Yvresse Born</title>
+    <titleShort>Yvressian</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the Kingdom of Yvresse. The mountains of Chrace are the home of the fearsome white lions. To be counted as a real hunter, an Elf of Chrace must kill one of these regal creatures single-handed, or else tame it to his service. Neither task is an easy one, for the lions are intelligent and canny beasts, making the contest one of wits, as well as strength. The white lion also gives its name to the legendary regiments in the service of the Phoenix Throne: the White Lions, carefully selected warriors who guard the Phoenix King in battle.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>	
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
 </Defs>
