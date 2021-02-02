@@ -53,7 +53,8 @@
         <li>Middle</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Archer_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -113,7 +114,8 @@
         <li>Middle</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Mail</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -121,7 +123,7 @@
     </apparel>
   </ThingDef>
 
-  <!-- HE_Archer -->
+  <!-- Golden Mail -->
   
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_HE_Golden_Mail_Coat</defName>
@@ -174,7 +176,8 @@
         <li>Middle</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Mail_Gold</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
