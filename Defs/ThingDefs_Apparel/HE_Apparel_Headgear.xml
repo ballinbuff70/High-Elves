@@ -47,7 +47,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Magic_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -113,7 +114,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Magic_Mid</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -179,7 +181,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Magic_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -247,7 +250,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Archer_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -305,7 +309,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Archer_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -363,7 +368,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Archer_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -415,7 +421,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -467,7 +474,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -519,7 +527,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -571,7 +580,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -623,7 +633,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_EllyrianReaver</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -675,7 +686,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -727,7 +739,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -738,7 +751,7 @@
 <!-- High Tier -->
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_LothernCaptain</defName>
+    <defName>Apparel_HE_LothernCaptainHelm</defName>
     <label>High Elf Lothern Seaguard Captain Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -781,7 +794,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_SeaguardCap</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -833,65 +847,13 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Spearman_LothernCaptainHelm</defName>
-    <label>High Elf Lothern Seaguard Captain Helm</label>
-    <description>PLACEHOLDER</description>
-    <techLevel>Medieval</techLevel>
-    <graphicData>
-      <texPath>Things/Apparel/Headgear/HE_Spearman_LothernCaptain/HE_Spearman_LothernCaptain</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <color>(255, 255, 255)</color>
-    </graphicData>
-    <costList>
-		<Steel>100</Steel>
-		<Gold>8</Gold>
-		<Resource_IthilmarIngot>5</Resource_IthilmarIngot>
-    </costList>
-    <thingCategories>
-      <li>Headgear</li>
-    </thingCategories>
-	<statBases>
-				<WorkToMake>1700</WorkToMake>
-				<MaxHitPoints>350</MaxHitPoints>
-				<Mass>1.5</Mass>
-				<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-				<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-      <EquipDelay>2.5</EquipDelay>
-    </statBases>
-    <recipeMaker>
-      <recipeUsers>
-        <li>HighElves_Smithery</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-		<apparel>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Headgear/HE_Spearman_LothernCaptain/HE_Spearman_LothernCaptain</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <tags>
-		<li>MedievalMilitary</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-  </ThingDef>	
 	
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Dragon_Prince_Helm</defName>
@@ -937,7 +899,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_DragonPrince</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -989,7 +952,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
+		<li>HE_Clothing_Soldier_Phoenix</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
