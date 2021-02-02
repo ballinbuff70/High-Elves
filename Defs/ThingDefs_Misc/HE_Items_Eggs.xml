@@ -50,7 +50,7 @@
 			</li>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>0.2</hatcherDaystoHatch> <!--0.0001 is instant-->
-				<hatcherPawn>O21_ElvenSettlements_Squire_Sun</hatcherPawn> <!--Your PawnKind defName goes in here! -->
+				<hatcherPawn>HighElf_PWNKND_Citizen</hatcherPawn> <!--Your PawnKind defName goes in here! -->
 			</li>
 		</comps>
 	</ThingDef>
