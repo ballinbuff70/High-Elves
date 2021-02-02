@@ -70,7 +70,7 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-			<RH_TET_Empire_Civilian>100</RH_TET_Empire_Civilian>
+			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
 		</options>
       </li>
       <li>
@@ -80,25 +80,25 @@
           <li>Siege</li>
         </disallowedStrategies>
         <options>
-			<HighElf_PWNKND_Citizen>100</HighElf_PWNKND_Citizen>
+			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
 		</options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <HighElf_PWNKND_Citizen>1</HighElf_PWNKND_Citizen>
+          <HighElf_PWNKND_NPLYR_Citizen>1</HighElf_PWNKND_NPLYR_Citizen>
         </traders>
         <carriers>
           <RH_TET_Horse>6</RH_TET_Horse>
         </carriers>
         <guards>
-			<HighElf_PWNKND_Citizen>100</HighElf_PWNKND_Citizen>
+			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
 		</guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-			<HighElf_PWNKND_Citizen>100</HighElf_PWNKND_Citizen>
+			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
 		</options>
       </li>
     </pawnGroupMakers>
