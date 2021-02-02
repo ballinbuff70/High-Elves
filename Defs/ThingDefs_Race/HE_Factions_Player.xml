@@ -21,7 +21,7 @@
     <techLevel>Medieval</techLevel>
     <factionNameMaker>NamerHighElvesEmpire</factionNameMaker>
     <settlementNameMaker>NamerHighElvesCities</settlementNameMaker>
-    <basicMemberKind>HighElf_PWNKND_Citizens</basicMemberKind>
+    <basicMemberKind>HighElf_PWNKND_Citizen</basicMemberKind>
     <startingResearchTags>
       <li>TribalStart</li>
     </startingResearchTags>
