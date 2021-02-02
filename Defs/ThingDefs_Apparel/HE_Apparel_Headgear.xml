@@ -204,7 +204,7 @@
 <!-- Regular -->
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Archer</defName>
+    <defName>Apparel_HE_Archer_Headpiece</defName>
     <label>High Elf Archer Headpiece</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -632,7 +632,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Spearman_Regal</defName>
+    <defName>Apparel_HE_Spearman_Regal_Headpiece</defName>
     <label>High Elf Regalia Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -894,7 +894,7 @@
   </ThingDef>	
 	
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Dragon_Prince</defName>
+    <defName>Apparel_HE_Dragon_Prince_Helm</defName>
     <label>High Elf Dragon Prince Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
@@ -946,7 +946,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>Apparel_HE_Phoenix</defName>
+    <defName>Apparel_HE_Phoenix_Helm</defName>
     <label>High Elf Phoenix Guard Helm</label>
     <description>PLACEHOLDER</description>
     <techLevel>Medieval</techLevel>
