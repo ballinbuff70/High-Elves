@@ -53,6 +53,31 @@
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Everwatcher</defName>
+    <title>Asuryan Everwatcher</title>
+    <titleShort>Asuryan Everwatcher</titleShort>
+    <baseDescription>[PAWN_nameDef] is trained extensively in the ways the bow. High Elf Archers are disciplined, keen-eyed citizen-militia that serves the armies of Ulthuan as part of their civic duties to protect their kingdom against all threats. As a result of Phoenix King Morvael's introduction of the levy system, over a thousand years ago the majority of Ulthuan's armies are composed of citizen militia. This system made it so all Elves receive military training, whether it be a craftsman, tradesman or artist, they all must fight in defense of Ulthuan in times of war.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
     <defName>HE_BSA_EagleKeeper</defName>
     <title>Eagle Keeper</title>
     <titleShort>Eagle Keeper</titleShort>
@@ -60,7 +85,7 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Social</defName>
+        <defName>Shooting</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -73,6 +98,7 @@
     </spawnCategories>
     <requiredWorkTags>
       <li>Animals</li>
+      <li>Violent</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
 
@@ -101,6 +127,31 @@
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
 
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_GlitteringCoast</defName>
+    <title>Glittering Coast Merchant</title>
+    <titleShort>Glittering Coast Merchant</titleShort>
+    <baseDescription>[PAWN_nameDef] has travelled the Old World and the New World extensively bringing back great riches to the coastal cities of Ulthuan.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+  
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_DragonKeeper</defName>
     <title>Dragon Studier</title>
