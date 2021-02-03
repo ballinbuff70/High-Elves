@@ -126,6 +126,32 @@
 <!-- Combatants -->
 
   <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_StandardBearer</defName>
+    <label>High Elf Standard Bearer</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Low</li>
+      <li>HE_Clothing_Soldier_Helm</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_FlagBearer</li>
+    </weaponTags>
+    <weaponMoney>250~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
     <defName>HighElf_PWNKND_NPLYR_Spearman</defName>
     <label>High Elf Spearman</label>
     <combatPower>35</combatPower>
@@ -142,7 +168,7 @@
     <weaponTags>
       <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>
@@ -168,7 +194,7 @@
     <weaponTags>
       <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>
@@ -195,7 +221,7 @@
       <li>HE_Spearman_Weapon_Basic</li>
       <li>HE_Archer_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>
@@ -221,7 +247,7 @@
     <weaponTags>
       <li>HE_Swordsman_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>
@@ -245,7 +271,7 @@
     <weaponTags>
       <li>HE_Archer_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>
