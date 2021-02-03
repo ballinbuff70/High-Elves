@@ -105,7 +105,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
     <tools>
       <li>
@@ -179,7 +179,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
     <tools>
       <li>
@@ -253,7 +253,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
     <tools>
       <li>
@@ -327,7 +327,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_Lance</li>
     </weaponTags>
     <tools>
       <li>
@@ -352,154 +352,6 @@
           <li>Cut</li>
         </capacities>
         <power>14</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-    </tools>
-	<comps>
-		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
-			<angleAdjustmentEast>95</angleAdjustmentEast>
-			<angleAdjustmentWest>-95</angleAdjustmentWest>
-			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
-			<eastOffset>-0.0,0,0.1</eastOffset>
-            <westOffset>0.0,0,0.1</westOffset>
-            <southOffset>-0.35,0,0.3</southOffset>
-			<northOffset>0.35,0,0.3</northOffset>
-		</li> 
-	</comps>	
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>SU_MeleeWeapon_HE_Ax</defName>
-    <label>High Elf Seaguard Axe</label>
-    <description>PLACEHOLDER</description>
-    <graphicData>
-      <texPath>Things/Weapons/HE_Axe_One</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    <shaderType>CutoutComplex</shaderType>
-	<color>(255, 255, 255)</color>
-	<drawSize>0.75</drawSize>
-    </graphicData>
-    <techLevel>Medieval</techLevel>
-    <costList>
-      <WoodLog>35</WoodLog>
-      <Steel>105</Steel>
-      <Resource_IthilmarIngot>8</Resource_IthilmarIngot>
-    </costList>
-    <statBases>
-      <WorkToMake>8000</WorkToMake>
-      <Mass>4</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.6</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-    </statBases>
-    <equippedAngleOffset>-120</equippedAngleOffset>
-    <recipeMaker>
-      <recipeUsers>
-        <li>HighElves_Smithery</li>
-      </recipeUsers>
-    </recipeMaker>
-    <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2.7</cooldownTime>
-      </li>
-    <li>
-        <label>blade</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>19</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-    </tools>
-	<comps>
-		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
-			<angleAdjustmentEast>95</angleAdjustmentEast>
-			<angleAdjustmentWest>-95</angleAdjustmentWest>
-			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
-			<eastOffset>-0.0,0,0.1</eastOffset>
-            <westOffset>0.0,0,0.1</westOffset>
-            <southOffset>-0.35,0,0.3</southOffset>
-			<northOffset>0.35,0,0.3</northOffset>
-		</li> 
-	</comps>	
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>SU_MeleeWeapon_WhiteLionAxe</defName>
-    <label>High Elf White Lion Axe</label>
-    <description>PLACEHOLDER</description>
-    <graphicData>
-      <texPath>Things/Weapons/WhiteLionAxe</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    <shaderType>CutoutComplex</shaderType>
-	<color>(255, 255, 255)</color>
-	<drawSize>0.75</drawSize>
-    </graphicData>
-    <techLevel>Medieval</techLevel>
-    <costList>
-      <WoodLog>35</WoodLog>
-      <Steel>125</Steel>
-      <Resource_IthilmarIngot>8</Resource_IthilmarIngot>
-    </costList>
-    <statBases>
-      <WorkToMake>8000</WorkToMake>
-      <Mass>4</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.6</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-    </statBases>
-    <equippedAngleOffset>-120</equippedAngleOffset>
-    <recipeMaker>
-      <recipeUsers>
-        <li>HighElves_Smithery</li>
-      </recipeUsers>
-    </recipeMaker>
-    <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2.7</cooldownTime>
-      </li>
-    <li>
-        <label>blade</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>22</power>
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
@@ -549,7 +401,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_SeaCaptain</li>
     </weaponTags>
     <tools>
       <li>
@@ -623,7 +475,7 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>MM_MeleeWeaponT2</li>
+      <li>HE_Spearman_Weapon_Phoenix</li>
     </weaponTags>
     <tools>
       <li>
@@ -664,7 +516,7 @@
 	</comps>	
   </ThingDef>
 
-<!-- Swords -->
+<!-- Swords and Axes -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_One</defName>
@@ -679,7 +531,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Basic</li>
 		</weaponTags>
     <costList>
 		<Steel>55</Steel>
@@ -747,7 +599,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Basic</li>
 		</weaponTags>
     <costList>
 		<Steel>55</Steel>
@@ -815,7 +667,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Basic</li>
 		</weaponTags>
     <costList>
 		<Steel>55</Steel>
@@ -883,7 +735,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Basic</li>
 		</weaponTags>
     <costList>
 		<Steel>55</Steel>
@@ -938,6 +790,154 @@
 	</comps>		
 	</ThingDef>
 
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_HE_Ax</defName>
+    <label>High Elf Seaguard Axe</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/HE_Axe_One</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>0.75</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>35</WoodLog>
+      <Steel>105</Steel>
+      <Resource_IthilmarIngot>8</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_Basic</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_WhiteLionAxe</defName>
+    <label>High Elf White Lion Axe</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/WhiteLionAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>0.75</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>35</WoodLog>
+      <Steel>125</Steel>
+      <Resource_IthilmarIngot>8</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_WhiteLion</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_DragonPrince</defName>
 		<label>High Elf Dragon Prince Sword</label>
@@ -951,7 +951,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_DragonPrince</li>
 		</weaponTags>
     <costList>
 		<Steel>135</Steel>
@@ -1018,7 +1018,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Swordmaster</li>
 		</weaponTags>
     <costList>
 		<Steel>135</Steel>
@@ -1085,7 +1085,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Magic_Weapon_Sword</li>
 		</weaponTags>
     <costList>
 		<Steel>135</Steel>
@@ -1165,7 +1165,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
-			<li>MedievalMeleeAdvanced</li>
+			<li>HE_Swordsman_Weapon_Regal</li>
 		</weaponTags>
     <costList>
 		<Steel>135</Steel>
@@ -1258,7 +1258,7 @@
 			<TradePriceImprovement>0.085</TradePriceImprovement>
 	</equippedStatOffsets>
     <weaponTags>
-      <li>SkavenFlail</li>
+      <li>HE_Spearman_Weapon_FlagBearer</li>
     </weaponTags>
     <tools>
       <li>
