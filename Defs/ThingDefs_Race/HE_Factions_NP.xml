@@ -5,18 +5,18 @@
 	<defName>HE_ElvenNPFaction</defName>
 	<label>High Elves</label>
 	<fixedName>Kingdom of the Northstar</fixedName>
-    <description>The Empire of Man. The men and women of the Empire represent human civilization. They stand firm against the greenskins, skaven, chaos, and all other threats to order. Builders, magic users, warriors, researchers, all manner of civilians, and more make them up.</description>
+    <description>The High Elves, the Eldest Race, or the Asur as they call themselves, are one of the most ancient and powerful mortal civilisations within the Warhammer World. Hailing from a mighty mist-shrouded island-continent located within the centre of the Great Ocean,[1e] the High Elves of Ulthuan are a proud and mighty nation of masterful warriors, peerless mages and lords of the sky and sea. They are an ancient race with powerful armies and even grander magic, building a grand and all-mighty civilisation who, alongside the Dwarfs, fought a long-forgotten, apocalyptic war which saw some of the greatest and most powerful mortal heroes battle against the great darkness that tried to consume the world many thousands of years ago. At the zenith of their power, the world was truly theirs for the taking.</description>
     <colorSpectrum>
       <li>(0.35, 0.35, 0.35)</li>
       <li>(0.5, 0.50, 0.50)</li>
     </colorSpectrum>
-    <pawnsPlural>humans</pawnsPlural>
+    <pawnsPlural>High Elves</pawnsPlural>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>High Loremaster</leaderTitle>
+    <leaderTitle>Phoenix King</leaderTitle>
     <factionIconPath>Things/World/HighElvesIconPlayer</factionIconPath>
 	<maxPawnCostPerTotalPointsCurve>
       <points>
@@ -71,6 +71,14 @@
         <kindDef>Peaceful</kindDef>
         <options>
 			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
+			<HighElf_PWNKND_NPLYR_Spearman>20</HighElf_PWNKND_NPLYR_Spearman>
+			<HighElf_PWNKND_NPLYR_Swordsman>20</HighElf_PWNKND_NPLYR_Swordsman>
+			<HighElf_PWNKND_NPLYR_LothernSeaguard>20</HighElf_PWNKND_NPLYR_LothernSeaguard>
+			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
+			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_LothernCaptain>2</HighElf_PWNKND_NPLYR_LothernCaptain>
+			<HighElf_PWNKND_NPLYR_DragonPrince>1</HighElf_PWNKND_NPLYR_DragonPrince>
+			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>	
 		</options>
       </li>
       <li>
@@ -80,25 +88,46 @@
           <li>Siege</li>
         </disallowedStrategies>
         <options>
-			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
+			<HighElf_PWNKND_NPLYR_Spearman>100</HighElf_PWNKND_NPLYR_Spearman>
+			<HighElf_PWNKND_NPLYR_EllyrianSpearman>50</HighElf_PWNKND_NPLYR_EllyrianSpearman>
+			<HighElf_PWNKND_NPLYR_LothernSeaguard>20</HighElf_PWNKND_NPLYR_LothernSeaguard>
+			<HighElf_PWNKND_NPLYR_Swordsman>20</HighElf_PWNKND_NPLYR_Swordsman>
+			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
+			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_LothernCaptain>2</HighElf_PWNKND_NPLYR_LothernCaptain>
+			<HighElf_PWNKND_NPLYR_DragonPrince>1</HighElf_PWNKND_NPLYR_DragonPrince>
+			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>			
 		</options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <HighElf_PWNKND_NPLYR_Citizen>1</HighElf_PWNKND_NPLYR_Citizen>
+          <HighElf_PWNKND_NPLYR_Trader>1</HighElf_PWNKND_NPLYR_Trader>  
         </traders>
         <carriers>
           <RH_TET_Horse>6</RH_TET_Horse>
         </carriers>
         <guards>
-			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
+			<HighElf_PWNKND_NPLYR_LothernSeaguard>35</HighElf_PWNKND_NPLYR_LothernSeaguard>
+			<HighElf_PWNKND_NPLYR_Citizen>20</HighElf_PWNKND_NPLYR_Citizen>
+			<HighElf_PWNKND_NPLYR_Swordsman>20</HighElf_PWNKND_NPLYR_Swordsman>
+			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
+			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_LothernCaptain>10</HighElf_PWNKND_NPLYR_LothernCaptain>
+			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>	
 		</guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
 			<HighElf_PWNKND_NPLYR_Citizen>100</HighElf_PWNKND_NPLYR_Citizen>
+			<HighElf_PWNKND_NPLYR_Spearman>50</HighElf_PWNKND_NPLYR_Spearman>
+			<HighElf_PWNKND_NPLYR_Swordsman>100</HighElf_PWNKND_NPLYR_Swordsman>
+			<HighElf_PWNKND_NPLYR_Archer>75</HighElf_PWNKND_NPLYR_Archer>
+			<HighElf_PWNKND_NPLYR_AvelornArcher>75</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_DragonPrince>10</HighElf_PWNKND_NPLYR_DragonPrince>
+			<HighElf_PWNKND_NPLYR_LothernCaptain>5</HighElf_PWNKND_NPLYR_LothernCaptain>
+			<HighElf_PWNKND_NPLYR_PhoenixGuard>2</HighElf_PWNKND_NPLYR_PhoenixGuard>
 		</options>
       </li>
     </pawnGroupMakers>
