@@ -193,6 +193,7 @@
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <weaponTags>
       <li>HE_Spearman_Weapon_Basic</li>
+      <li>HE_Archer_Weapon_Basic</li>
     </weaponTags>
     <weaponMoney>150~300</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
