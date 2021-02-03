@@ -29,13 +29,13 @@
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_Archer</defName>
-    <title>Asuryan Archer</title>
-    <titleShort>Asuryan Archer</titleShort>
+    <title>Asuryan Bowyer</title>
+    <titleShort>Asuryan Bowyer</titleShort>
     <baseDescription>[PAWN_nameDef] is trained extensively in the ways the bow. High Elf Archers are disciplined, keen-eyed citizen-militia that serves the armies of Ulthuan as part of their civic duties to protect their kingdom against all threats. As a result of Phoenix King Morvael's introduction of the levy system, over a thousand years ago the majority of Ulthuan's armies are composed of citizen militia. This system made it so all Elves receive military training, whether it be a craftsman, tradesman or artist, they all must fight in defense of Ulthuan in times of war.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Social</defName>
+        <defName>Crafting</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -47,7 +47,7 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Social</li>
+      <li>Crafting</li>
       <li>Violent</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
@@ -352,24 +352,72 @@
     <defName>HE_BSA_AsuryanShrineKeeper</defName>
     <title>Asuryan Shrine Keeper</title>
     <titleShort>Asuryan Shrine Keeper</titleShort>
-    <baseDescription>[PAWN_nameDef] works in the fine craftsmanship of creating Asuryan wine.</baseDescription>
+    <baseDescription>[PAWN_nameDef] works in the arts of maintaining the exquisite beauty of the Asuryan cities.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Plants</defName>
+        <defName>Construction</defName>
         <amount>4</amount>
       </li>
       <li>
-        <defName>Cooking</defName>
-        <amount>4</amount>
+        <defName>Mining</defName>
+        <amount>2</amount>
       </li>
     </skillGains>
     <spawnCategories>
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Plants</li>
-      <li>Cooking</li>
+      <li>Construction</li>
+      <li>Mining</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_AsuryanShipwright</defName>
+    <title>Asuryan Shipwright</title>
+    <titleShort>Asuryan Shipwright</titleShort>
+    <baseDescription>[PAWN_nameDef] works in the design and construction of the Asuryan merchant fleet.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Construction</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+
+  <AlienRace.BackstoryDef>
+    <defName>HE_BSA_Colonist</defName>
+    <title>Asuryan Colonizer</title>
+    <titleShort>Asuryan Colonizer</titleShort>
+    <baseDescription>[PAWN_nameDef] has taken part in the establishment of many colonies across the world bringing great wealth and power to the Asur.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HE_Backstories_Standard</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Construction</li>
+      <li>Crafting</li>
     </requiredWorkTags>
 
   <AlienRace.BackstoryDef>
