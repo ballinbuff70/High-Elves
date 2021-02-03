@@ -76,6 +76,7 @@
 			<HighElf_PWNKND_NPLYR_LothernSeaguard>20</HighElf_PWNKND_NPLYR_LothernSeaguard>
 			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
 			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_StandardBearer>5</HighElf_PWNKND_NPLYR_StandardBearer>
 			<HighElf_PWNKND_NPLYR_LothernCaptain>2</HighElf_PWNKND_NPLYR_LothernCaptain>
 			<HighElf_PWNKND_NPLYR_DragonPrince>1</HighElf_PWNKND_NPLYR_DragonPrince>
 			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>	
@@ -94,9 +95,10 @@
 			<HighElf_PWNKND_NPLYR_Swordsman>20</HighElf_PWNKND_NPLYR_Swordsman>
 			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
 			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
+			<HighElf_PWNKND_NPLYR_StandardBearer>5</HighElf_PWNKND_NPLYR_StandardBearer>
 			<HighElf_PWNKND_NPLYR_LothernCaptain>2</HighElf_PWNKND_NPLYR_LothernCaptain>
 			<HighElf_PWNKND_NPLYR_DragonPrince>1</HighElf_PWNKND_NPLYR_DragonPrince>
-			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>			
+			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>		
 		</options>
       </li>
       <li>
@@ -114,6 +116,7 @@
 			<HighElf_PWNKND_NPLYR_Archer>20</HighElf_PWNKND_NPLYR_Archer>
 			<HighElf_PWNKND_NPLYR_AvelornArcher>15</HighElf_PWNKND_NPLYR_AvelornArcher>
 			<HighElf_PWNKND_NPLYR_LothernCaptain>10</HighElf_PWNKND_NPLYR_LothernCaptain>
+			<HighElf_PWNKND_NPLYR_StandardBearer>5</HighElf_PWNKND_NPLYR_StandardBearer>
 			<HighElf_PWNKND_NPLYR_PhoenixGuard>.5</HighElf_PWNKND_NPLYR_PhoenixGuard>	
 		</guards>
       </li>
