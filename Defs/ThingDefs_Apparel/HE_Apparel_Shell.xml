@@ -53,7 +53,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Magic_Mid</li>
       </tags>
       <defaultOutfitTags>
@@ -126,7 +126,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Magic_High</li>
       </tags>
       <defaultOutfitTags>
@@ -203,7 +203,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Archer_Basic</li>
       </tags>
       <defaultOutfitTags>
@@ -262,7 +262,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Archer_Mid</li>
       </tags>
       <defaultOutfitTags>
@@ -321,7 +321,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
@@ -380,7 +380,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
@@ -443,8 +443,8 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
-		<li>HE_Clothing_Soldier_Low</li>
+		
+		<li>HE_Clothing_Soldier_Lothern</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -504,7 +504,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_WhiteLion</li>
       </tags>
       <defaultOutfitTags>
@@ -564,7 +564,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_SeaguardCap</li>
       </tags>
       <defaultOutfitTags>
@@ -624,7 +624,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		<li>HE_Clothing_Soldier_Regal</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -683,7 +683,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_DragonPrince</li>
       </tags>
       <defaultOutfitTags>
@@ -745,7 +745,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_Swordmaster</li>
       </tags>
       <defaultOutfitTags>
@@ -805,7 +805,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-		<li>MedievalMilitary</li>
+		
 		<li>HE_Clothing_Soldier_Phoenix</li>
       </tags>
       <defaultOutfitTags>
