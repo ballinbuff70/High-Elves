@@ -25,7 +25,7 @@
     <defaultFactionType>PlayerColony</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
-     <li>Neolithic</li>
+     <li>HE_Clothing_Basic</li>
     </apparelTags>
 	<combatPower>30</combatPower>
 	<weaponTags>
@@ -47,10 +47,8 @@
   <PawnKindDef Name="HE_PawnKind_NPLYR" Abstract="True">
     <race>HE_AlienRace_HighElf</race>
     <defaultFactionType>HE_ElvenNPFaction</defaultFactionType>
-    <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
-    <invFoodDef>RH_TET_Empire_Bread</invFoodDef>
     <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
 	<!--
     <apparelTags>
@@ -75,6 +73,8 @@
       </li>
     </backstoryFiltersOverride>
   </PawnKindDef>
+
+<!-- Non-Combatants -->
   
   <PawnKindDef ParentName="HE_PawnKind_NPLYR">
     <defName>HighElf_PWNKND_NPLYR_Citizen</defName>
@@ -83,12 +83,12 @@
     <isFighter>false</isFighter>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelTags>
-      <li>Neolithic</li>
+      <li>HE_Clothing_Basic</li>
     </apparelTags>
     <apparelMoney>300~500</apparelMoney>
     <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>RH_TET_Empire_Melee_Basic</li>
+      <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
     <weaponMoney>150~300</weaponMoney>
     <techHediffsChance>0.06</techHediffsChance>
@@ -98,5 +98,259 @@
       <li>Simple</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_Trader</defName>
+    <label>High Elf Trader</label>
+    <combatPower>30</combatPower>
+    <trader>true</trader>
+    <isFighter>false</isFighter>
+    <gearHealthRange>1~2</gearHealthRange>
+	<apparelTags>
+      <li>HE_Clothing_Basic</li>
+    </apparelTags>
+    <apparelMoney>600~1000</apparelMoney>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>    
+	<weaponTags>
+      <li>HE_Spearman_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>500~800</weaponMoney>
+    <techHediffsChance>0.01</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
 
+<!-- Combatants -->
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_Spearman</defName>
+    <label>High Elf Spearman</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Low</li>
+      <li>HE_Clothing_Soldier_Helm</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>150~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_EllyrianSpearman</defName>
+    <label>High Elf Ellyrian Reaver</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Low</li>
+      <li>HE_Clothing_Soldier_EllyrianReaver</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>150~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_LothernSeaguard</defName>
+    <label>High Elf Lothern Seaguard</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Lothern</li>
+      <li>HE_Clothing_Soldier_Helm</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>150~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_Swordsman</defName>
+    <label>High Elf Bladesman</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Low</li>
+      <li>HE_Clothing_Soldier_Helm</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>150~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_Archer</defName>
+    <label>High Elf Archer</label>
+    <combatPower>35</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Archer_Basic</li>
+    </apparelTags>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Archer_Weapon_Basic</li>
+    </weaponTags>
+    <weaponMoney>150~300</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_AvelornArcher</defName>
+    <label>High Elf Archer of Avelorn</label>
+    <combatPower>45</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Archer_High</li>
+    </apparelTags>
+    <apparelMoney>600~800</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Archer_Weapon_Mid</li>
+      <li>HE_Archer_Weapon_High</li>
+    </weaponTags>
+    <weaponMoney>600~800</weaponMoney>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_LothernCaptain</defName>
+    <label>High Elf Lothern Seaguard Captain</label>
+    <combatPower>60</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_SeaguardCap</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>500~800</apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_SeaCaptain</li>
+    </weaponTags>
+    <weaponMoney>400~800</weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_DragonPrince</defName>
+    <label>High Elf Dragon Prince</label>
+    <combatPower>60</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_DragonPrince</li>
+	  <li>HE_Clothing_Soldier_Mail</li>
+    </apparelTags>
+    <apparelMoney>900~1000</apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_DragonPrince</li>
+    </weaponTags>
+    <weaponMoney>900~100</weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="HE_PawnKind_NPLYR">
+    <defName>HighElf_PWNKND_NPLYR_PhoenixGuard</defName>
+    <label>High Elf Phoenix Guard</label>
+    <combatPower>60</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~2</gearHealthRange>
+    <apparelTags>
+      <li>HE_Clothing_Basic</li>
+      <li>HE_Clothing_Soldier_Phoenix</li>
+	  <li>HE_Clothing_Soldier_Mail_Gold</li>
+    </apparelTags>
+    <apparelMoney>900~1000</apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>HE_Spearman_Weapon_Phoenix</li>
+    </weaponTags>
+    <weaponMoney>900~100</weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  
 </Defs>
