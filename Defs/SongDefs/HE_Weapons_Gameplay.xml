@@ -24,28 +24,6 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>MirkwoodBow</defName>  
-    <context>MapOnly</context>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Weapons/BowTwo</clipPath>
-          </li>
-        </grains>      
-        <volumeRange>
-          <min>60.70111</min>        
-          <max>77.30627</max>
-        </volumeRange>      
-        <pitchRange>
-          <min>0.6976015</min>        
-          <max>0.7769372</max>
-        </pitchRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-  <SoundDef>
     <defName>littlebrojaystrike</defName>  
     <context>MapOnly</context>
     <subSounds>
