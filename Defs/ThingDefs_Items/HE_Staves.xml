@@ -3,9 +3,6 @@
 
   <ThingDef Name="VC_BaseStafforScroll" Abstract="True" ParentName="BaseWeapon">
     <techLevel>Neolithic</techLevel>
-    <weaponTags>
-      <li>Vampire Counts</li>
-    </weaponTags>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
@@ -54,10 +51,10 @@
     </weaponTags>
   </ThingDef>
 
-	<!-- Staff_One -->
+	<!-- Staff Start -->
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_One</defName>
+    <defName>HE_Staff_One</defName>
     <label>Staff of Saphery</label>
     <description>Placeholder</description>
     <graphicData>
@@ -92,7 +89,7 @@
 	</recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
@@ -138,8 +135,8 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>VC_BlueEnergy</defName>
-    <label>VC Blue Energy Projectile</label>
+    <defName>HE_BlueEnergy</defName>
+    <label>Blue Energy Projectile</label>
     <projectile>
       <flyOverhead>false</flyOverhead>
 	  <damageDef>Burn</damageDef>
@@ -154,10 +151,8 @@
     </graphicData>
   </ThingDef>
 
-	<!-- Dark Shepard Staff -->
-
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_Two</defName>
+    <defName>HE_Staff_Two</defName>
     <label>Staff of the Winds</label>
     <description>Placeholder</description>
     <graphicData>
@@ -192,13 +187,13 @@
     </recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_PurpleEnergy</defaultProjectile>
+        <defaultProjectile>HE_PurpleEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>littlebrojaystrike</soundCast>
@@ -238,8 +233,8 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>VC_PurpleEnergy</defName>
-    <label>VC Purple Energy Projectile</label>
+    <defName>HE_PurpleEnergy</defName>
+    <label>Purple Energy Projectile</label>
     <projectile>
       <flyOverhead>false</flyOverhead>
 	  <damageDef>Burn</damageDef>
@@ -257,7 +252,7 @@
 	<!-- Death Stone Staff -->
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_Three</defName>
+    <defName>HE_Staff_Three</defName>
     <label>Staff of the Vortex</label>
     <description>Placeholder</description>
     <graphicData>
@@ -293,13 +288,13 @@
     </recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_GreenEnergy</defaultProjectile>
+        <defaultProjectile>HE_GreenEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>fireballwoosh</soundCast>
@@ -339,8 +334,8 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>VC_GreenEnergy</defName>
-    <label>VC Green Energy Projectile</label>
+    <defName>HE_GreenEnergy</defName>
+    <label>Green Energy Projectile</label>
     <projectile>
       <flyOverhead>false</flyOverhead>
 	  <damageDef>Burn</damageDef>
@@ -356,7 +351,7 @@
   </ThingDef>
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_Four</defName>
+    <defName>HE_Staff_Four</defName>
     <label>Staff of the Crimson Star</label>
     <description>Placeholder</description>
     <graphicData>
@@ -392,13 +387,13 @@
     </recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_GreenEnergy</defaultProjectile>
+        <defaultProjectile>HE_GreenEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>fireballwoosh</soundCast>
@@ -438,7 +433,7 @@
   </ThingDef>
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_Five</defName>
+    <defName>HE_Staff_Five</defName>
     <label>Staff of the Golden Phoenix</label>
     <description>Placeholder</description>
     <graphicData>
@@ -474,13 +469,13 @@
     </recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_GreenEnergy</defaultProjectile>
+        <defaultProjectile>HE_GreenEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>fireballwoosh</soundCast>
@@ -520,7 +515,7 @@
   </ThingDef>
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
-    <defName>VC_Staff_Six</defName>
+    <defName>HE_Staff_Six</defName>
     <label>Staff of the Asuryan</label>
     <description>Placeholder</description>
     <graphicData>
@@ -556,13 +551,13 @@
     </recipeMaker>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <weaponTags>
-      <li>NeolithicRangedDecent</li>
+      <li>HE_Weapon_Magic_Staff</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_GreenEnergy</defaultProjectile>
+        <defaultProjectile>HE_GreenEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>fireballwoosh</soundCast>
