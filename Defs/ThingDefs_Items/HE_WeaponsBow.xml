@@ -4,8 +4,8 @@
   <!-- Tier 1 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>LotRE_Arrow_Mirkwood</defName>
-    <label>mirkwood arrow</label>
+    <defName>HE_Arrow_Basic</defName>
+    <label>High Elf arrow</label>
     <graphicData>
       <texPath>Things/Projectiles/MM_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -21,8 +21,8 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>LotRE_Bow_Mirkwood</defName>
-    <label>High Elf Ranger Bow</label>
+    <defName>HE_Bow_Militia</defName>
+    <label>High Elf Militia Bow</label>
     <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
     <graphicData>
       <texPath>Things/Weapons/Bow_Ranger</texPath>
@@ -56,10 +56,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>LotRE_Arrow_Mirkwood</defaultProjectile>
+        <defaultProjectile>HE_Arrow_Basic</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>38</range>
-        <soundCast>MirkwoodBow</soundCast>
+        <soundCast>ElfLongbow</soundCast>
       </li>
     </verbs>
     <tools>
@@ -78,8 +78,8 @@
   <!-- Tier 2 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>LotRE_Arrow_Galadhrim</defName>
-    <label>galadhrim arrow</label>
+    <defName>HE_Arrow_Mid</defName>
+    <label>High Elf arrow</label>
     <graphicData>
       <texPath>Things/Projectile/MM_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -95,9 +95,9 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>LotRE_Bow_Galadhrim</defName>
+    <defName>HE_Bow_Aeir</defName>
     <label>High Elf Aeir Bow</label>
-    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
+    <description>The longbow preferred by the Asur. A powerful long range weapon.</description>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -136,7 +136,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
+        <defaultProjectile>HE_Arrow_Mid</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <minRange>1.5</minRange>
         <range>44</range>
@@ -158,9 +158,9 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>LotRE_Bow_AetherianBow</defName>
+    <defName>HE_Bow_AetherianBow</defName>
     <label>High Elf Aetherian Bow</label>
-    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
+    <description>The longbow preferred by the Asur. A powerful long range weapon.</description>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -199,7 +199,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
+        <defaultProjectile>HE_Arrow_Mid</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <minRange>1.5</minRange>
         <range>44</range>
@@ -222,10 +222,27 @@
 
   <!-- Tier 3 -->
 
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>HE_Arrow_High</defName>
+    <label>High Elf arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/MM_arrow_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>34</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>40</speed>
+      <armorPenetrationBase>0.4</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>LotRE_Bow_AvelornSpiritBow</defName>
+    <defName>HE_Bow_AvelornSpiritBow</defName>
     <label>High Elf Avelorn Spirit Bow</label>
-    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
+    <description>The longbow preferred by the Asur. A powerful long range weapon.</description>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -264,7 +281,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
+        <defaultProjectile>HE_Arrow_High</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <minRange>1.5</minRange>
         <range>44</range>
