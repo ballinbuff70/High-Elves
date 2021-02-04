@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Resource_IthilmarIngot</defName>
     <label>Ithilmar Ingot</label>
-    <description>Sail Rope is extremely strong due to its unique molecular structure.</description>
+    <description>Ithilmar (lit. 'sky-silver' in Eltharin) is a wondrous, lightweight metal found only in Vaul's Anvil, the largest volcano in Ulthuan. Forged by Elven smiths, ithilmar is priceless, and serves as an excellent alternative to steel or iron mail. In Norsca, it is also known as the "witch-metal" of the Elves.</description>
     <graphicData>
       <texPath>Things/Items/Resources/Ithilmar</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -13,9 +13,9 @@
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
-      <MarketValue>200</MarketValue>
+      <MarketValue>120</MarketValue>
       <Mass>0.1</Mass>
-      <Flammability>0.1</Flammability>
+      <Flammability>0</Flammability>
       <DeteriorationRate>0.1</DeteriorationRate>
     </statBases>
     <intricate>true</intricate>
