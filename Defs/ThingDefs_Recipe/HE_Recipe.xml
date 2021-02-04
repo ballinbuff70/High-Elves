@@ -246,7 +246,7 @@
   <RecipeDef>
     <defName>Create_MedCrates</defName>
     <label>Create Medicine Crate</label>
-    <description>Create Medicine Crate</description>
+    <description>Create Medicine Crate. </description>
     <jobString>Create Medicine Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -292,7 +292,7 @@
   <RecipeDef>
     <defName>Unpack_CornCrates</defName>
     <label>Unpack Corn Crate</label>
-    <description>Unpack Corn Crate</description>
+    <description>Unpack Corn Crate. Though you will lose half of what you packed...</description>
     <jobString>Unpack Corn Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -329,7 +329,7 @@
   <RecipeDef>
     <defName>Unpack_HopsCrates</defName>
     <label>Unpack Hops Crate</label>
-    <description>Unpack Hops Crate</description>
+    <description>Unpack Hops Crate. Though you will lose half of what you packed...</description>
     <jobString>Unpack Hops Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -355,7 +355,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <RawHops>50</RawHops>
+      <RawHops>25</RawHops>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -366,7 +366,7 @@
   <RecipeDef>
     <defName>Unpack_PotatoCrates</defName>
     <label>Unpack Potato Crate</label>
-    <description>Unpack Potato Crate</description>
+    <description>Unpack Potato Crate. Though you will lose half of what you packed...</description>
     <jobString>Unpack Potato Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -392,7 +392,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <RawPotatoes>50</RawPotatoes>
+      <RawPotatoes>25</RawPotatoes>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -403,7 +403,7 @@
   <RecipeDef>
     <defName>Unpack_HayCrates</defName>
     <label>Unpack Hay Crate</label>
-    <description>Unpack Hay Crate</description>
+    <description>Unpack Hay Crates. Though you will lose half of what you packed...</description>
     <jobString>Unpack Hay Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -429,7 +429,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Hay>50</Hay>
+      <Hay>25</Hay>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -440,7 +440,7 @@
   <RecipeDef>
     <defName>Unpack_MedCrates</defName>
     <label>Unpack Medicine Crate</label>
-    <description>Unpack Medicine Crate</description>
+    <description>Unpack Medicine Crate. Though you will lose half of what you packed...</description>
     <jobString>Unpack Medicine Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -466,7 +466,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <MedicineHerbal>50</MedicineHerbal>
+      <MedicineHerbal>25</MedicineHerbal>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -653,7 +653,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Gold>550</Gold>
+      <Gold>500</Gold>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
