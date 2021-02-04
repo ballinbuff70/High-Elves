@@ -194,11 +194,11 @@
     </building>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
         <fuelCapacity>350.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Silver</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -262,11 +262,11 @@
     </building>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
-        <fuelCapacity>350.0</fuelCapacity>
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelCapacity>500.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Silver</li>
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -278,7 +278,7 @@
       </li>
     </comps>
     <placeWorkers>
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>Smithing</li>
@@ -306,6 +306,7 @@
       <Cloth>50</Cloth>
     </costList>
     <constructEffect>ConstructWood</constructEffect>
+	<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -347,7 +348,7 @@
       </li>
     </comps>
     <placeWorkers>
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>Smithing</li>
