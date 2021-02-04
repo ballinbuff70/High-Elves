@@ -40,7 +40,7 @@ Ginnozel
 Agrazac
 Mizos
 Urtol
-Bel-Gobaal
+Gobaal
 Yebrun
 Harer
 Danontrus
@@ -49,7 +49,7 @@ Tardenel
 Obyaldin
 Cedhizrac
 Thocrar
-Bel-Thodhoc
+Thodhoc
 Oruc
 Tordyec
 Thartur
