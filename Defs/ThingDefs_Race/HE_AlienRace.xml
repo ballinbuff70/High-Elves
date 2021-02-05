@@ -9,7 +9,7 @@
 				<forcedRaceTraitEntries>
 					<li>
 						<defName>HighElfSupremacy</defName>
-						<chance>60</chance>
+						<chance>40</chance>
 					</li>
 				</forcedRaceTraitEntries>			
 				<maleGenderProbability>0.50</maleGenderProbability>
