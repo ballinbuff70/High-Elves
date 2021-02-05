@@ -99,11 +99,6 @@
 				<researchList>
 				</researchList>
 			</raceRestriction>
-			<graphicPaths>
-				<li>
-					<head>Things/Pawn/Humanlike/Heads/</head>
-				</li>
-			</graphicPaths>
 			<hairSettings>
 				<hasHair>true</hasHair>
 				<getsGreyAt>800</getsGreyAt> 
@@ -114,7 +109,6 @@
 			</hairSettings>
 			<thoughtSettings>
 				<cannotReceiveThoughts>
-					<li>KnowBuriedInSarcophagus</li>
 					<li>WitnessedDeathNonAlly</li>
 					<li>ObservedLayingCorpse</li>
 					<li>PrisonerBanishedToDie</li>
@@ -126,17 +120,15 @@
 			<ToxicSensitivity>0.2</ToxicSensitivity>
 			<ConstructionSpeed>1.2</ConstructionSpeed>
 			<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
-			<MiningYield>1.25</MiningYield>
-			<MiningSpeed>1.25</MiningSpeed>
-			<MoveSpeed>5.20</MoveSpeed>
+			<TameAnimalChance>1.15</TameAnimalChance>
+			<TrainAnimalChance>1.15</TrainAnimalChance>
+			<MoveSpeed>5.30</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>48</ComfyTemperatureMax>
 			<ImmunityGainSpeed>0.3</ImmunityGainSpeed>
-			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<LeatherAmount>50</LeatherAmount>
-			<Mass>60.0</Mass>
+			<Mass>50.0</Mass>
 		</statBases>
 		<tools>
 			<li>
