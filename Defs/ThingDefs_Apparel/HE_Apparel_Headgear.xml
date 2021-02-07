@@ -960,5 +960,58 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HE_Phoenix_King_Helm</defName>
+    <label>High Elf Phoenix King Helm</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/HE_Phoenix/HE_Phoenix</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
+    </graphicData>
+    <costList>
+		<Steel>180</Steel>
+		<Gold>25</Gold>
+		<Resource_IthilmarIngot>15</Resource_IthilmarIngot>
+    </costList>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+	<statBases>
+		<WorkToMake>1700</WorkToMake>
+		<MaxHitPoints>350</MaxHitPoints>
+		<Mass>1.5</Mass>
+		<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/HE_Phoenix/HE_Phoenix</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+		
+		<li>HE_Clothing_Soldier_PhoenixKing</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
   
   </Defs>
