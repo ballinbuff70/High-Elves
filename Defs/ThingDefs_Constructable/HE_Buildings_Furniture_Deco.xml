@@ -129,6 +129,258 @@
 		</researchPrerequisites>	
 	</ThingDef>
 
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagAsuryan</defName>
+		<label>Flag of the Asuryan</label>
+		<description>Flag of the Asuryan</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagAsuryan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagAvelorn</defName>
+		<label>Flag of Avelorn</label>
+		<description>Flag of Avelorn</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagAvelorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagChrace</defName>
+		<label>Flag of Chrace</label>
+		<description>Flag of Chrace</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagChrace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagEllyrion</defName>
+		<label>Flag of Ellyrion</label>
+		<description>Flag of Ellyrion</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagEllyrion</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagHoeth</defName>
+		<label>Flag of Hoeth</label>
+		<description>Flag of Hoeth</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagHoeth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>HE_Flag_FlagNagarythe</defName>
+		<label>Flag of Nagarythe</label>
+		<description>Flag of Nagarythe</description>
+		<graphicData>
+			<texPath>Things/Building/Decorations/FlagNagarythe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>			
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>120</Cloth>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
  <!--============================== Other Decorations ==============================-->
 
 	<ThingDef ParentName="FurnitureBase">
