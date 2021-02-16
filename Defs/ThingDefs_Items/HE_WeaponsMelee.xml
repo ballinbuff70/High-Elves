@@ -790,6 +790,142 @@
 	</comps>		
 	</ThingDef>
 
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_Five</defName>
+		<label>High Elf Sword (Five)</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Sword_LalaOne</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		  <drawSize>0.75</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>HE_Swordsman_Weapon_Basic</li>
+		</weaponTags>
+    <costList>
+		<Steel>55</Steel>
+      <Resource_IthilmarIngot>3</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>18</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_Six</defName>
+		<label>High Elf Sword (Five)</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Sword_LalaThree</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		  <drawSize>0.75</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>HE_Swordsman_Weapon_Basic</li>
+		</weaponTags>
+    <costList>
+		<Steel>55</Steel>
+      <Resource_IthilmarIngot>3</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>18</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_HE_Ax</defName>
     <label>High Elf Seaguard Axe</label>
@@ -848,6 +984,154 @@
           <li>Cut</li>
         </capacities>
         <power>19</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_HE_Ax_LalaOne</defName>
+    <label>High Elf Coastal Militia Axe</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/Axe_LalaOne</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>0.75</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>35</WoodLog>
+      <Steel>105</Steel>
+      <Resource_IthilmarIngot>8</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_Basic</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>	
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>SU_MeleeWeapon_HE_Ax_LalaTwo</defName>
+    <label>High Elf Royal Axe</label>
+    <description>PLACEHOLDER</description>
+    <graphicData>
+      <texPath>Things/Weapons/Axe_LalaTwo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+	<color>(255, 255, 255)</color>
+	<drawSize>0.75</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <WoodLog>45</WoodLog>
+      <Steel>125</Steel>
+      <Resource_IthilmarIngot>12</Resource_IthilmarIngot>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-120</equippedAngleOffset>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>HE_Swordsman_Weapon_Swordmaster</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
@@ -1074,11 +1358,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>HE_Sword_Saphery</defName>
+		<defName>HE_Sword_Magic_Saphery</defName>
 		<label>High Elf Sword of Saphery</label>
 		<description>PLACEHOLDER</description>
 		<graphicData>
-		  <texPath>Things/Weapons/Sword_Regal</texPath>
+		  <texPath>Things/Weapons/SwordOfSaphery</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <color>(255, 255, 255)</color>
@@ -1127,7 +1411,85 @@
 			<cooldownTime>1.5</cooldownTime>
 		  </li>
 		</tools>
-		
+	<comps>
+		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
+			<hasEnchantment>true</hasEnchantment>
+			<arcaneSpectre>true</arcaneSpectre>
+			<maxMP>0.15</maxMP>
+			<maxMPTier>Standard</maxMPTier>
+			<mpRegenRate>0.08</mpRegenRate>
+			<mpRegenRateTier>Standard</mpRegenRateTier>
+			<mpCost>0.1</mpCost>
+			<mpCostTier>Negative</mpCostTier>
+			<arcaneRes>0.08</arcaneRes>
+			<arcaneResTier>Standard</arcaneResTier>
+		</li>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_Magic_Hoeth</defName>
+		<label>High Elf Sword of Hoeth</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Sword_Lalafour</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>HE_Magic_Weapon_Sword</li>
+		</weaponTags>
+    <costList>
+		<Steel>135</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>20</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>26</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
 	<comps>
 		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
 			<hasEnchantment>true</hasEnchantment>
@@ -1204,6 +1566,140 @@
 			  <li>Cut</li>
 			</capacities>
 			<power>34</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_GoldenRegal</defName>
+		<label>High Elf Royal Sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Sword_LalaTwo</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>HE_Swordsman_Weapon_Regal</li>
+		</weaponTags>
+    <costList>
+		<Steel>135</Steel>
+      <Resource_IthilmarIngot>15</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>18</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>28</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>34</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	<comps>
+		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+			<angleAdjustmentEast>95</angleAdjustmentEast>
+			<angleAdjustmentWest>-95</angleAdjustmentWest>
+			<angleAdjustmentNorth>45</angleAdjustmentNorth>			
+			<eastOffset>-0.0,0,0.1</eastOffset>
+            <westOffset>0.0,0,0.1</westOffset>
+            <southOffset>-0.35,0,0.3</southOffset>
+			<northOffset>0.35,0,0.3</northOffset>
+		</li> 
+	</comps>		
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>HE_Sword_Sunfang</defName>
+		<label>High Elf Sunfang Sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Tyrion_Lala</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <color>(255, 255, 255)</color>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>HE_Swordsman_Weapon_Regal</li>
+		</weaponTags>
+    <costList>
+		<Steel>185</Steel>
+      <Resource_IthilmarIngot>25</Resource_IthilmarIngot>		
+    </costList>
+		<statBases>
+		  <WorkToMake>1200</WorkToMake>
+		  <Mass>1.5</Mass>
+		</statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+    </recipeMaker>
+		<equippedAngleOffset>-120</equippedAngleOffset>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>20</power>
+			<cooldownTime>1.95</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>34</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>45</power>
 			<cooldownTime>1.5</cooldownTime>
 		  </li>
 		</tools>
