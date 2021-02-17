@@ -78,8 +78,8 @@
     <fixedBillGiverDefs>
       <li>HighElves_ShieldStation</li>
     </fixedBillGiverDefs>
-    <verb>Ship</verb>
-    <gerund>Shipping at</gerund>
+    <verb>Craft</verb>
+    <gerund>Crafting at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
