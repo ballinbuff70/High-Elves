@@ -24,12 +24,7 @@ High Elves brought to Rimworld!
 			<packageId>jecrell.jecstools</packageId>
 			<displayName>JecsTools</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2195729899</steamWorkshopUrl>
-		</li>	
-		<li>
-			<packageId>sickboywi.theendtimes.theendtimes</packageId>
-			<displayName>Rimhammer - The End Times</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2007275942</steamWorkshopUrl>
-		</li>	
+		</li>		
 		<li>
 			<packageId>sickboywi.theendtimes.dwarfs</packageId>
 			<displayName>Rimhammer - The End Times - Dwarves</displayName>
