@@ -14,7 +14,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -60,7 +60,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -106,7 +106,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -152,7 +152,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -199,7 +199,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -245,7 +245,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
 	  <li>
@@ -282,7 +282,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
 	  <li>
@@ -319,7 +319,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
 	  <li>
@@ -356,7 +356,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
 	  <li>
@@ -393,7 +393,7 @@
     <workAmount>1000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 	<recipeUsers>
-		<li>HighElves_DockStation</li>
+		<li>HighElves_RequisitionsTent</li>
 	</recipeUsers>
     <ingredients>
 	  <li>
