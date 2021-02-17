@@ -6,7 +6,7 @@
   <RecipeDef>
     <defName>Caravan_CornCrates</defName>
     <label>Caravan Corn Crate</label>
-    <description>Caravan Corn Crate</description>
+    <description>Caravan Corn Crates, this will be at a lower profit than shipping...</description>
     <jobString>Caravan Corn Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -43,7 +43,7 @@
   <RecipeDef>
     <defName>Caravan_HopsCrates</defName>
     <label>Caravan Hops Crate</label>
-    <description>Caravan Hops Crate</description>
+    <description>Caravan Hops Crate, this will be at a lower profit than shipping...</description>
     <jobString>Caravan Hops Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -80,7 +80,7 @@
   <RecipeDef>
     <defName>Caravan_PotatoCrates</defName>
     <label>Caravan Potato Crate</label>
-    <description>Caravan Potato Crate</description>
+    <description>Caravan Potato Crate, this will be at a lower profit than shipping...</description>
     <jobString>Caravan Potato Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -117,7 +117,7 @@
   <RecipeDef>
     <defName>Caravan_HayCrates</defName>
     <label>Caravan Hay Crate</label>
-    <description>Caravan Hay Crate</description>
+    <description>Caravan Hay Crate, this will be at a lower profit than shipping...</description>
     <jobString>Caravan Hay Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -154,7 +154,7 @@
   <RecipeDef>
     <defName>Caravan_MedCrates</defName>
     <label>Caravan Medicine Crate</label>
-    <description>Caravan Medicine Crate</description>
+    <description>Caravan Medicine Crate, this will be at a lower profit than shipping...</description>
     <jobString>Caravan Medicine Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
