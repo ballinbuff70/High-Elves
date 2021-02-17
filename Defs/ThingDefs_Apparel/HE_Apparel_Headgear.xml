@@ -856,6 +856,58 @@
   </ThingDef>
 	
   <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HE_Winged_Helm</defName>
+    <label>High Elf Winged Helm</label>
+    <description>PLACEHOLDER</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/HE_Winged/HE_Winged</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(255, 255, 255)</color>
+    </graphicData>
+    <costList>
+		<Steel>120</Steel>
+		<Gold>10</Gold>
+		<Resource_IthilmarIngot>7</Resource_IthilmarIngot>
+    </costList>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+	<statBases>
+				<WorkToMake>1700</WorkToMake>
+				<MaxHitPoints>350</MaxHitPoints>
+				<Mass>1.5</Mass>
+				<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>HighElves_Smithery</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/HE_Winged/HE_Winged</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+		
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>	
+	
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Dragon_Prince_Helm</defName>
     <label>High Elf Dragon Prince Helm</label>
     <description>PLACEHOLDER</description>
@@ -899,7 +951,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_DragonPrince</li>
       </tags>
       <defaultOutfitTags>
