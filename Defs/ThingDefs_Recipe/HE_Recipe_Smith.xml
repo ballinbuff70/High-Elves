@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Create_IthilmarIngot</defName>
+    <label>Smith Ithilmar Ingot</label>
+    <description>Smith Ithilmar Ingot</description>
+    <jobString>Smith Ithilmar Ingot</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_Smithery</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>	  
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+		<li>Plasteel</li>
+		<li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Resource_IthilmarIngot>1</Resource_IthilmarIngot>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+	
+</Defs>

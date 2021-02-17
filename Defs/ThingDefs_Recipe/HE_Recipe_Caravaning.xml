@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Selling Crates -->
+
+  <RecipeDef>
+    <defName>Caravan_CornCrates</defName>
+    <label>Caravan Corn Crate</label>
+    <description>Caravan Corn Crate</description>
+    <jobString>Caravan Corn Crate</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_RequisitionsTent</li>
+	</recipeUsers>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>CornCrates</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CornCrates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>100</Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Caravan_HopsCrates</defName>
+    <label>Caravan Hops Crate</label>
+    <description>Caravan Hops Crate</description>
+    <jobString>Caravan Hops Crate</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_RequisitionsTent</li>
+	</recipeUsers>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>HopsCrates</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HopsCrates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>100</Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Caravan_PotatoCrates</defName>
+    <label>Caravan Potato Crate</label>
+    <description>Caravan Potato Crate</description>
+    <jobString>Caravan Potato Crate</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_RequisitionsTent</li>
+	</recipeUsers>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PotatoCrates</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PotatoCrates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>100</Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Caravan_HayCrates</defName>
+    <label>Caravan Hay Crate</label>
+    <description>Caravan Hay Crate</description>
+    <jobString>Caravan Hay Crate</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_RequisitionsTent</li>
+	</recipeUsers>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>HayCrates</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HayCrates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>25</Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Caravan_MedCrates</defName>
+    <label>Caravan Medicine Crate</label>
+    <description>Caravan Medicine Crate</description>
+    <jobString>Caravan Medicine Crate</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>HighElves_RequisitionsTent</li>
+	</recipeUsers>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>MedCrates</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedCrates</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>300</Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+	
+</Defs>
