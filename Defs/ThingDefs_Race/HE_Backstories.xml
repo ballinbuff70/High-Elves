@@ -373,6 +373,7 @@
       <li>Crafting</li>
       <li>Mining</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_ShieldShaper</defName>
@@ -397,6 +398,7 @@
       <li>Crafting</li>
       <li>Mining</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_AsuryanShrineKeeper</defName>
@@ -421,6 +423,7 @@
       <li>Construction</li>
       <li>Mining</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_AsuryanShipwright</defName>
@@ -445,6 +448,7 @@
       <li>Construction</li>
       <li>Crafting</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_Colonist</defName>
@@ -469,6 +473,7 @@
       <li>Construction</li>
       <li>Crafting</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_WineMerchant</defName>
@@ -493,6 +498,7 @@
       <li>Plants</li>
       <li>Cooking</li>
     </requiredWorkTags>
+  </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef>
     <defName>HE_BSA_ApprenticeVaul</defName>
