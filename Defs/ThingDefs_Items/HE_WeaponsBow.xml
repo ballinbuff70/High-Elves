@@ -229,7 +229,7 @@
     <defName>HE_Arrow_High</defName>
     <label>High Elf arrow</label>
     <graphicData>
-      <texPath>Things/Projectile/MM_arrow_big</texPath>
+      <texPath>Things/Projectile/ArrowSpirit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
