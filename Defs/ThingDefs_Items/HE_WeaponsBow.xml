@@ -245,7 +245,7 @@
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>HE_Bow_AvelornSpiritBow</defName>
     <label>High Elf Avelorn Spirit Bow</label>
-    <description>The longbow preferred by the Asur. A powerful long range weapon.</description>
+    <description>The longbow preferred by the Asur and protectors of the Grove. A powerful long range weapon.</description>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
