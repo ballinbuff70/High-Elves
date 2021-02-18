@@ -7,7 +7,7 @@
     <defName>HE_Arrow_Basic</defName>
     <label>High Elf arrow</label>
     <graphicData>
-      <texPath>Things/Projectiles/MM_arrow_big</texPath>
+      <texPath>Things/Projectiles/HE_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -82,7 +82,7 @@
     <defName>HE_Arrow_Mid</defName>
     <label>High Elf arrow</label>
     <graphicData>
-      <texPath>Things/Projectile/MM_arrow_big</texPath>
+      <texPath>Things/Projectile/HE_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
