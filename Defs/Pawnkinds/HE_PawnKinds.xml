@@ -90,7 +90,7 @@
     <weaponTags>
       <li>HE_Spearman_Weapon_Basic</li>
     </weaponTags>
-    <weaponMoney>150~300</weaponMoney>
+    <weaponMoney>250~300</weaponMoney>
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
     <techHediffsTags>

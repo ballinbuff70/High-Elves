@@ -191,7 +191,7 @@
   <RecipeDef>
     <defName>Create_MedCrates</defName>
     <label>Create Medicine Crate</label>
-    <description>Create Medicine Crate. </description>
+    <description>Create Medicine Crate.</description>
     <jobString>Create Medicine Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
