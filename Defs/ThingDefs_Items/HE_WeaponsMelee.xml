@@ -21,6 +21,7 @@
     <costStuffCount>125</costStuffCount>
     <statBases>
       <WorkToMake>18000</WorkToMake>
+	  <MarketValue>200</MarketValue>
       <Mass>1.2</Mass>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
@@ -97,6 +98,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -171,6 +173,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -245,6 +248,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -319,6 +323,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -393,6 +398,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -467,6 +473,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -540,6 +547,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -608,6 +616,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -676,6 +685,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -744,6 +754,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -812,6 +823,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -880,6 +892,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -951,6 +964,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -1025,6 +1039,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -1099,6 +1114,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -1173,6 +1189,7 @@
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.6</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>
@@ -1244,6 +1261,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1311,6 +1329,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1378,6 +1397,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1457,6 +1477,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1536,6 +1557,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1670,6 +1692,7 @@
 		<statBases>
 		  <WorkToMake>1200</WorkToMake>
 		  <Mass>1.5</Mass>
+		  <MarketValue>200</MarketValue>
 		</statBases>
     <recipeMaker>
       <recipeUsers>
@@ -1737,6 +1760,7 @@
     <statBases>
       <WorkToMake>8000</WorkToMake>
       <Mass>3</Mass>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>-120</equippedAngleOffset>
     <recipeMaker>

@@ -71,7 +71,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -169,7 +169,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -269,7 +269,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -368,7 +368,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -450,7 +450,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -532,7 +532,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-	  <MarketValue>50000</MarketValue>
+	  <MarketValue>200</MarketValue>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>

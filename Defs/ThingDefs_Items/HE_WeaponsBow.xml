@@ -43,6 +43,7 @@
       <AccuracyMedium>0.77</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <weaponTags>
       <li>HE_Archer_Weapon_Basic</li>
@@ -123,6 +124,7 @@
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.77</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <weaponTags>
       <li>HE_Archer_Weapon_Mid</li>
@@ -186,6 +188,7 @@
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.77</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <weaponTags>
       <li>HE_Archer_Weapon_Mid</li>
@@ -268,6 +271,7 @@
       <AccuracyMedium>0.89</AccuracyMedium>
       <AccuracyLong>0.82</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <weaponTags>
       <li>HE_Archer_Weapon_High</li>
