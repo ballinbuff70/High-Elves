@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HE_Apparel_Robe</defName>
     <label>High Elven Robe</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elven robes are remarkably light, comfortable, and versatile.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Clothing/HE_Robe/HE_Robe</texPath>
@@ -64,7 +64,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HE_Apparel_ShadowWarriorRobe</defName>
     <label>High Shadow Warrior Robe</label>
-    <description>PLACEHOLDER</description>
+    <description>The Shadow Warriors are an elite band of scouts, warriors and assassins, who are the descendants of loyalist Elves from the Kingdom of Nagarythe during the time of the great Sundering. These robes are adorned by the shadow elite of the Asur.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Clothing/HE_Shadow_Warriors/HE_Shadow_Warriors</texPath>
@@ -124,7 +124,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HE_Apparel_MageRobe</defName>
     <label>High Elven Mage Robe</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Clothing/HE_Mage_Robe/HE_Mage_Robe</texPath>
