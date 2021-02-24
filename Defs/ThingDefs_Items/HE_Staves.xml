@@ -95,7 +95,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VC_BlueEnergy</defaultProjectile>
+        <defaultProjectile>HE_BlueEnergy</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>25</range>
         <soundCast>ForceStave</soundCast>
