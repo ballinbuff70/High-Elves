@@ -52,7 +52,6 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Basic</li>
       </tags>
       <defaultOutfitTags>
@@ -112,7 +111,6 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_ShadowWarrior</li>
       </tags>
       <defaultOutfitTags>
@@ -173,27 +171,12 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.08</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.08</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.08</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.12</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
   </ThingDef>
 
   </Defs>

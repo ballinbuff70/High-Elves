@@ -53,27 +53,12 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_Mid</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.15</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.15</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.1</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.15</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
@@ -126,27 +111,12 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.24</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.25</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.18</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.24</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
   </ThingDef>	
 	
   <!-- Regular -->
@@ -203,7 +173,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Archer_Basic</li>
       </tags>
       <defaultOutfitTags>
@@ -262,7 +231,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Archer_Mid</li>
       </tags>
       <defaultOutfitTags>
@@ -321,7 +289,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
@@ -380,7 +347,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Low</li>
       </tags>
       <defaultOutfitTags>
@@ -443,7 +409,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Lothern</li>
       </tags>
       <defaultOutfitTags>
@@ -504,7 +469,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_WhiteLion</li>
       </tags>
       <defaultOutfitTags>
@@ -564,7 +528,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_SeaguardCap</li>
       </tags>
       <defaultOutfitTags>
@@ -683,7 +646,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_DragonPrince</li>
       </tags>
       <defaultOutfitTags>
@@ -745,7 +707,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Swordmaster</li>
       </tags>
       <defaultOutfitTags>
@@ -805,7 +766,6 @@
         <li>Shell</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Phoenix</li>
       </tags>
       <defaultOutfitTags>

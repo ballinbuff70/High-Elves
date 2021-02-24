@@ -47,27 +47,12 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_Basic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-    </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.07</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.05</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.05</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.1</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
+    </apparel>	
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -114,27 +99,12 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_Mid</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.15</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.15</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.1</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.15</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -181,27 +151,12 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Magic_High</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.25</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.25</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.15</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.25</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
   </ThingDef>
 
 <!-- Regular -->
@@ -250,7 +205,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Archer_Basic</li>
       </tags>
       <defaultOutfitTags>
@@ -309,7 +263,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Archer_High</li>
       </tags>
       <defaultOutfitTags>
@@ -368,7 +321,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Archer_High</li>
       </tags>
       <defaultOutfitTags>
@@ -421,7 +373,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -474,7 +425,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -527,7 +477,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -580,7 +529,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -633,7 +581,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_EllyrianReaver</li>
       </tags>
       <defaultOutfitTags>
@@ -686,7 +633,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -739,7 +685,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Helm</li>
       </tags>
       <defaultOutfitTags>
@@ -847,7 +792,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
+		<li>HE_Clothing_Soldier_PhoenixKing</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -899,7 +844,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
+		<li>HE_Clothing_Soldier_PhoenixKing</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -1003,7 +948,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_Phoenix</li>
       </tags>
       <defaultOutfitTags>
@@ -1056,7 +1000,6 @@
         <li>Overhead</li>
       </layers>
       <tags>
-		
 		<li>HE_Clothing_Soldier_PhoenixKing</li>
       </tags>
       <defaultOutfitTags>

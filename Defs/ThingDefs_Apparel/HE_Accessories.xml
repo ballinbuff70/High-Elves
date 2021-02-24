@@ -22,21 +22,7 @@
       <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 	  <MoveSpeed>0.15</MoveSpeed>
 	  <MeleeHitChance>0.2</MeleeHitChance>
-    </equippedStatOffsets>
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.35</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.35</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.2</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.35</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
+    </equippedStatOffsets>	
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
       <recipeUsers>
@@ -112,20 +98,6 @@
 	  <ResearchSpeed>0.65</ResearchSpeed>
 	  <MoveSpeed>0.18</MoveSpeed>
     </equippedStatOffsets>	
-	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.20</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.24</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.15</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.35</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
-	</comps>	
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
       <recipeUsers>
