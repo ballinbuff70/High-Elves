@@ -26,7 +26,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -119,7 +119,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -212,7 +212,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -305,7 +305,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -398,7 +398,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -491,7 +491,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -584,7 +584,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -677,7 +677,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -770,7 +770,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -863,7 +863,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -956,7 +956,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -1049,7 +1049,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -1142,7 +1142,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>HE_Warrior_Shields</li>
+		  <li>RH_TET_Dwarfs_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
