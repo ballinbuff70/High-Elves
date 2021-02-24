@@ -44,11 +44,6 @@ High Elves brought to Rimworld!
 			<packageId>vanillaexpanded.vfesecurity</packageId>
 			<displayName>Vanilla Expanded Security</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>torann.arimworldofmagic</packageId>
-			<displayName>A RimWorld of Magic</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956</steamWorkshopUrl>
 		</li>			
 		<li>
 			<packageId>neronix17.toolbox</packageId>
@@ -58,6 +53,11 @@ High Elves brought to Rimworld!
 		<li>
 			<packageId>neronix17.fr.compilation</packageId>
 			<displayName>[O21] Forgotten Realms</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>sarg.magicalmenagerie</packageId>
+			<displayName>Magical Menagerie</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669</steamWorkshopUrl>
 		</li>
 	</modDependencies>		
@@ -73,6 +73,6 @@ High Elves brought to Rimworld!
 		<li>neronix17.fr.compilation</li>
 		<li>vindar.medievaltimes</li>
 		<li>vanillaexpanded.vfesecurity</li>
-		<li>torann.arimworldofmagic</li>
+		<li>sarg.magicalmenagerie</li>
 	</loadAfter>
 </ModMetaData>

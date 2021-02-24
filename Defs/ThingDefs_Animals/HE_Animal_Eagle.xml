@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- =============== Great Eagle Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>HE_EggGreat_EagleFertilized</defName>
+		<label>Great Eagle egg (fert.)</label>
+		<description>Fertilized Great Eagle egg. It can be eaten raw, but it's much, much better cooked. If all goes well, it should hatch into a Great Eagle.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<Nutrition>.25</Nutrition>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/MM_EggGriffin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>10</hatcherDaystoHatch>
+				<hatcherPawn>HE_GreatEagle_Base</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!-- ============================================================ -->
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>HE_Great_Eagle</defName>
+    <label>Great Eagle</label>
+    <description>There has always been a great bond of kinship between the Elves and the Great Eagles, stretching back to ancient times. That bond remains strong between the Wood Elves and the noble avians, and so many families of eagles choose to make their homes in the heights of the Grey Mountains, close by the borders of Athel Loren. On rare or desperate occasions, a Great Eagle may offer itself as a mount to a particularly trusted Glade Lord. This is a great honour in the eyes of the Wood Elves, for it is a true partnership of equals. Such a union forms the start of a great and enduring friendship that continues to bind both parties, even after death.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>75</ComfyTemperatureMax>
+      <MarketValue>600</MarketValue>
+    </statBases>
+   <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+	   <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	
+	
+   <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>HE_EggGreat_EagleFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>1</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+	<wildBiomes>
+        <BorealForest>0.025</BorealForest>     
+        <TemperateSwamp>0.005</TemperateSwamp>
+        <TropicalSwamp>0.005</TropicalSwamp>
+        <TemperateForest>0.03</TemperateForest>
+        <TropicalRainforest>0.03</TropicalRainforest>
+        <AridShrubland>0.005</AridShrubland>
+        <Desert>0.005</Desert>
+        <ExtremeDesert>0.005</ExtremeDesert>
+      </wildBiomes>
+      <body>MM_QuadrupedAnimalWithBeakAndWings</body>
+      <herdAnimal>false</herdAnimal>
+	  <baseBodySize>3</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>2.5</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+	  <wildness>0.75</wildness>
+	  <trainability>Advanced</trainability>
+      <leatherDef>MM_LightMagicalLeather</leatherDef>
+	  <gestationPeriodDays>30</gestationPeriodDays>
+	  <lifeExpectancy>25</lifeExpectancy>
+	  <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>MM_Griffin_Wounded</soundWounded>
+          <soundDeath>MM_Griffin_Death</soundDeath>
+          <soundCall>MM_Griffin_Call</soundCall>
+          <soundAngry>MM_Griffin_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+	  <soundCallIntervalRange>6000~12000</soundCallIntervalRange>
+	   <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+     
+	
+    </race>
+    <tradeTags>
+	   <li>AnimalUncommon</li>
+
+      <li>AnimalFighter</li>
+    </tradeTags>
+	<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					
+					<li>MM_PrimaryRole</li>
+					<li>MM_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>MM_MountFastArmoured</li>
+					<li>MM_No</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>MM_MountFastArmouredDesc</li>
+					<li>MM_NoRanged</li>
+				</statDescriptions>
+					
+			</li>
+		</modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>HE_GreatEagle_Base</defName>
+    <label>Great Eagle</label>
+    <race>HE_Great_Eagle</race>
+    <combatPower>300</combatPower>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
+	<wildGroupSize>
+      <min>1</min>
+      <max>5</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Eagles/GreatEagle</texPath>
+          <drawSize>1.2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/MM_Griffin/MM_Dessicated_Griffin</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Eagles/GreatEagle</texPath>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/MM_Griffin/MM_Dessicated_Griffin</texPath>
+          <drawSize>2.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Eagles/GreatEagle</texPath>
+          <drawSize>3.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/MM_Griffin/MM_Dessicated_Griffin</texPath>
+          <drawSize>3.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+</Defs>
