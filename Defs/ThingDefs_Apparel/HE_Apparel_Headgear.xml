@@ -6,7 +6,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_MageHeadpiece</defName>
     <label>High Elf Mage Headpiece</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_MageMinor/HE_MageMinor</texPath>
@@ -58,7 +58,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_MageHelm</defName>
     <label>High Elf Mage Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Mage/HE_Mage</texPath>
@@ -110,7 +110,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_MasterMageHelm</defName>
     <label>High Elf Master Mage Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_MageMaster/HE_MageMaster</texPath>
@@ -164,7 +164,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Archer_Headpiece</defName>
     <label>High Elf Archer Headpiece</label>
-    <description>PLACEHOLDER</description>
+    <description>When a High Elf begins his martial training, he first learns the arts of swordsmanship and archery. Only when he has mastered both blade and bow is he inducted into the white-garbed ranks of an archer regiment. For the High Elves, white is the colour of purity and integrity and of death, and their robes symbolise their determination to fight to the end, no matter what horrors await them on the battlefield. Once trained, an archer serves in his regiment for a decade or more, forsaking all previous allegiances.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Archer/HE_Archer</texPath>
@@ -216,7 +216,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_AvelornArcher</defName>
     <label>High Elf Avelorn Archer Headpiece</label>
-    <description>PLACEHOLDER</description>
+    <description>Archers of Avelorn are keen-eyed archers, Elf maids chosen from the ranks of the citizen levy by the Everqueen's personal decree. By tradition, only the most gifted are welcomed into the Sisters of Avelorn, for just as the Everqueen embodies all that is ideal and unblemished in the Elven race, so too must her chosen guardians – not only in mind and body, but also in pursuit of the spiritual. Such measures serve to raise the warriors of the Maiden Guard above the petty intrigues that often pervade the Everqueen's court, ensuring that they remain incorruptible.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_AvelornArcher/HE_AvelornArcher</texPath>
@@ -274,7 +274,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_ShadowWarrior</defName>
     <label>High Elf Shadow Warrior Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Shadow Warriors are an elite band of scouts, warriors and assassins, who are the descendants of loyalist Elves from the Kingdom of Nagarythe during the time of the great Sundering. These robes are adorned by the shadow elite of the Asur.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Shadow_Warrior/HE_Shadow_Warrior</texPath>
@@ -332,7 +332,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Gilded</defName>
     <label>High Elf Gilded Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_Gilded/HE_Spearman_Gilded</texPath>
@@ -384,7 +384,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Aieril</defName>
     <label>High Elf Aieril Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_Lined/HE_Spearman_Lined</texPath>
@@ -436,7 +436,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Aveled</defName>
     <label>High Elf Aveled Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_Aveled/HE_Spearman_Aveled</texPath>
@@ -488,7 +488,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_feathered</defName>
     <label>High Elf Feathered Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_feathered/HE_Spearman_feathered</texPath>
@@ -540,7 +540,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_EllyrianReaver</defName>
     <label>High Elf Ellyrian Reaver Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Ellyrian Reavers, or Reaver Knights, are a famous formation of elite Ellyrian horsemen who are famous for their abilities as swift and agile horse archers and mounted spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_EllyrianReaver/HE_EllyrianReaver</texPath>
@@ -592,7 +592,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Regal_Headpiece</defName>
     <label>High Elf Regalia Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_Regal/HE_Spearman_Regal</texPath>
@@ -644,7 +644,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Spearman_Wrapped</defName>
     <label>High Elf Wrapped Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_Wrapped/HE_Spearman_Wrapped</texPath>
@@ -698,7 +698,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_LothernCaptainHelm</defName>
     <label>High Elf Lothern Seaguard Captain Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Lothern Sea Guard are the specialised citizen-militia of the Kingdom of Eataine, fighting as effectively on land as at sea, and are equally resolute when defending the walls and fields of Lothern as they are when battling on the deck of a ship. These dangerous duties require the Sea Guard to maintain a flexible armoury. The vast majority are well-trained in the use of spear, shield and bow — the better to combine the finest aspects of the spear and archer regiments of other cities and realms. Indeed, it is a point of pride in Lothern that the discipline of their warriors far surpasses that of any found elsewhere in Ulthuan.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Spearman_LothernCaptain/HE_Spearman_LothernCaptain</texPath>
@@ -751,7 +751,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Regal_Helm</defName>
     <label>High Elf Regal Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Regal/HE_Regal</texPath>
@@ -803,7 +803,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Winged_Helm</defName>
     <label>High Elf Winged Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Winged/HE_Winged</texPath>
@@ -855,7 +855,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Dragon_Prince_Helm</defName>
     <label>High Elf Dragon Prince Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Dragon Princes are the noblest and proudest Asur knights of Caledor. Once the Dragon Princes could command enough dragons to turn the skies dark with wings, destroying entire armies with their flames and mighty claws, but now the dragons are few and those that are left slumber deeply. However, the Dragon Princes have lost none of their own skills with sword and lance, so they gallop into battle upon mighty Elven steeds caparisoned in burnished armour forged in the form of a dragon.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Dragon_Prince/HE_Dragon_Prince</texPath>
@@ -907,7 +907,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Phoenix_Helm</defName>
     <label>High Elf Phoenix Guard Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Phoenix Guard are the fearsome guardians of the Shrine of Asuryan, the great pyramid-temple in the Sea of Dreams.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_PhoenixGuard/HE_PhoenixGuard</texPath>
@@ -959,7 +959,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_HE_Phoenix_King_Helm</defName>
     <label>High Elf Phoenix King Helm</label>
-    <description>PLACEHOLDER</description>
+    <description>The Phoenix Kings are the rulers of the High Elven Isle of Ulthuan. The position of Phoenix King is elective. He is chosen from among the Princes of Ulthuan on the death of the previous Phoenix King and crowned at the massive pyramid Shrine of Asuryan located on an island in the Inner Sea. Before being crowned, they must pass through the Sacred Flame unharmed to prove their purity under the eyes of Asuryan. This is not to say that all Phoenix Kings have been good rulers.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Headgear/HE_Phoenix/HE_Phoenix</texPath>
@@ -968,9 +968,9 @@
 	  <color>(255, 255, 255)</color>
     </graphicData>
     <costList>
-		<Steel>180</Steel>
+		<Steel>350</Steel>
 		<Gold>25</Gold>
-		<Resource_IthilmarIngot>15</Resource_IthilmarIngot>
+		<Resource_IthilmarIngot>25</Resource_IthilmarIngot>
     </costList>
     <thingCategories>
       <li>Headgear</li>
@@ -979,8 +979,8 @@
 		<WorkToMake>1700</WorkToMake>
 		<MaxHitPoints>350</MaxHitPoints>
 		<Mass>1.5</Mass>
-		<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
     <recipeMaker>

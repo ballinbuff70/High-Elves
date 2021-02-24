@@ -6,7 +6,7 @@
   <RecipeDef>
     <defName>Ship_CornCrates</defName>
     <label>Ship Corn Crate</label>
-    <description>Ship Corn Crate</description>
+    <description>Ship Corn Crate, a higher return than caravaning the shipment.</description>
     <jobString>Ship Corn Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -43,7 +43,7 @@
   <RecipeDef>
     <defName>Ship_HopsCrates</defName>
     <label>Ship Hops Crate</label>
-    <description>Ship Hops Crate</description>
+    <description>Ship Hops Crate, a higher return than caravaning the shipment.</description>
     <jobString>Ship Hops Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -80,7 +80,7 @@
   <RecipeDef>
     <defName>Ship_PotatoCrates</defName>
     <label>Ship Potato Crate</label>
-    <description>Ship Potato Crate</description>
+    <description>Ship Potato Crate, a higher return than caravaning the shipment.</description>
     <jobString>Ship Potato Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -117,7 +117,7 @@
   <RecipeDef>
     <defName>Ship_HayCrates</defName>
     <label>Ship Hay Crate</label>
-    <description>Ship Hay Crate</description>
+    <description>Ship Hay Crate, a higher return than caravaning the shipment.</description>
     <jobString>Ship Hay Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -154,7 +154,7 @@
   <RecipeDef>
     <defName>Ship_MedCrates</defName>
     <label>Ship Medicine Crate</label>
-    <description>Ship Medicine Crate</description>
+    <description>Ship Medicine Crate, a higher return than caravaning the shipment.</description>
     <jobString>Ship Medicine Crate</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>

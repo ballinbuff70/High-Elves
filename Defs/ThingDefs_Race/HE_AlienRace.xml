@@ -3,7 +3,13 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>HE_AlienRace_HighElf</defName>
 		<label>High Elf Citizen</label>
-		<description>The First Order, also known as the Order, was a military junta that ruled large swathes of the galaxy during the New Republic Era. Under the dictatorship of Supreme Leader Snoke and his successor, Kylo Ren, the First Order grew from a hermit state in the Unknown Regions into the dominant galactic power. Unlike the New Republic that strived to create a democratic and demilitarized galaxy, fascism and militarism were ideological features of the First Order regime.</description>
+		<description>The Elves are one of the most ancient and powerful of all the intelligent races of the Warhammer World. They are tall, slender humanoids who are inherently magical and live for millennia. There are three main factions of Elves in the world: the High Elves, Dark Elves and Wood Elves.
+
+Compared to humans, Elves are taller, fair-skinned, and slender. They possess high cheekbones and slightly angular faces and slanted eyes. Some depictions show them with completely black eyes, while in others they possess human-normal pupils and irises.
+
+High Elves are often shown with blonde hair, Wood Elves with brown and Dark Elves with black, but these changes are minor and cosmetic and the three groups are for the most part physically indistinguishable and all members of the same species. What defines each kindred of Elves more than anything else is their different cultures.
+
+Assuming they do not die a violent death, Elves are capable of living for several thousand years. It is not considered impossible for an Elf to live seven thousand years or more, although only Malekith, the Witch King of Naggaroth (and his Mother Morathi )could claim such an achievement at present. It is to be noted that such achievements seem to be products of dark magic.</description>
 		<alienRace>
 			<generalSettings>
 				<forcedRaceTraitEntries>

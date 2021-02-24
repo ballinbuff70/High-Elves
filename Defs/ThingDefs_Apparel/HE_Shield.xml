@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_Shield_One</defName>
 		<label>High Elf Shield of the Moon</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -26,7 +26,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -97,7 +97,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_Shield_Two</defName>
 		<label>High Elf Shield of the Diamond</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -119,7 +119,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -190,7 +190,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_Shield_Three</defName>
 		<label>High Elf Shield of the Horse</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -212,7 +212,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -283,7 +283,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_Shield_Four</defName>
 		<label>High Elf Shield of the Phoenix</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -305,7 +305,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -376,7 +376,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_CaledorShield</defName>
 		<label>High Elf Caledor Shield</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -398,7 +398,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -469,7 +469,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_ChraceShield</defName>
 		<label>High Elf Chrace Shield</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -491,7 +491,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -562,7 +562,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_EllyrianShield</defName>
 		<label>High Elf Ellyrian Shield</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -584,7 +584,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -655,7 +655,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_LothernShield</defName>
 		<label>High Elf Lothern Shield</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -677,7 +677,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -748,7 +748,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_NagarytheShield</defName>
 		<label>High Elf Nagarythe Shield</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -770,7 +770,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -841,7 +841,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_OneShield</defName>
 		<label>High Elf Shield of the Crescent</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -863,7 +863,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -934,7 +934,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_ShieldShield</defName>
 		<label>High Elf Shield of the Gem</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -956,7 +956,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -1027,7 +1027,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_TwoShield</defName>
 		<label>High Elf Shield of the Star</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -1049,7 +1049,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>
@@ -1120,7 +1120,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>RH_TET_HE_ThreeShield</defName>
 		<label>High Elf Shield of the Chalice</label>
-		<description>A sturdy Dwarfen shield. Made all of metal, and provides good protection.\n\nChampions and even iron breakers carry this shield. It's protection is suberb, and as is usual for dwarfen constction, it's made with an artistic touch.</description>
+		<description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
 		<equipmentType>None</equipmentType>
 		<recipeMaker>
 			<recipeUsers>
@@ -1142,7 +1142,7 @@
 			<Resource_IthilmarIngot>10</Resource_IthilmarIngot>
 		</costList>
 		<thingCategories>
-		  <li>RH_TET_Dwarfs_Shields</li>
+		  <li>HE_Warrior_Shields</li>
 		</thingCategories>
 		<statBases>
 			<WorkToMake>6500</WorkToMake>

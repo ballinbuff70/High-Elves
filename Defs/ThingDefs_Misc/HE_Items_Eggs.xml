@@ -4,7 +4,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>CPF_DRSKT_RacePawnAssembler</defName>
 		<label>High Elf Contract</label>
-		<description>an assembly kit for a dummy pawn. After an initial boot up time the assembly kit will self construct.</description>
+		<description>A contract for the hiring of a new High Elf member of the colony.</description>
 		<!--All info related to the texture.-->
 		<graphicData>
 			<texPath>Things/Items/CraftablePawnEggs/Craftable_Egg</texPath>
@@ -58,7 +58,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>CPF_RH_TET_HighElvenCitizenPawnAssembler</defName>
 		<label>High Elf Citizen Contract</label>
-		<description>an assembly kit for a dummy pawn. After an initial boot up time the assembly kit will self construct.</description>
+		<description>A contract for the arrival of a new High Elf citizen for the colony who will passively provide taxes in gold.</description>
 		<!--All info related to the texture.-->
 		<graphicData>
 			<texPath>Things/Items/CraftablePawnEggs/Craftable_Egg</texPath>
@@ -112,7 +112,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>CPF_RH_TET_HighElvenCitizenTPawnAssembler</defName>
 		<label>High Elf Citizen Contract</label>
-		<description>an assembly kit for a dummy pawn. After an initial boot up time the assembly kit will self construct.</description>
+		<description>A contract for the arrival of a new High Elf citizen for the colony who will passively provide taxes in gold.</description>
 		<!--All info related to the texture.-->
 		<graphicData>
 			<texPath>Things/Items/CraftablePawnEggs/Craftable_Egg</texPath>
@@ -166,7 +166,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>CPF_RH_TET_HorsesPawnAssembler</defName>
 		<label>Purchase Horse</label>
-		<description>an assembly kit for a dummy pawn. After an initial boot up time the assembly kit will self construct.</description>
+		<description>A contract to purchase a mount for the High Elf cavalry units.</description>
 		<!--All info related to the texture.-->
 		<graphicData>
 			<texPath>Things/Items/CraftablePawnEggs/Craftable_Egg</texPath>

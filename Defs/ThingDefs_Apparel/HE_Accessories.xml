@@ -5,7 +5,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_LoremasterOrb</defName>
     <label>Loremaster Orb</label>
-    <description>[Workspeed: +20%] Countless are the innocent souls whose life essence has flowed into this bewitched goblet. Those that drink from it are rejuvenated with new power..</description>
+    <description>The Loremasters of Hoeth are invariably gifted warriors, for their intellects find even the exacting disciplines of the Swordmasters almost childishly easy to master. Similarly, each Loremaster has a faultless grasp of the principles of magical lore. However, he seldom wastes time in committing more than a sliver of battle magic to memory: he is concerned with weightier and more elusive spells that are little suited to the battlefield.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/LoremasterOrb</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -39,7 +39,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofSaphery</defName>
     <label>Talisman of Saphery</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/TalismanofSaphery</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -75,7 +75,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_TeachingsoftheLifeBloom</defName>
     <label>Teachings of the Life Bloom</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/TeachingsoftheLifeBloom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -113,8 +113,8 @@
  <ThingDef ParentName="MedTimes_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofLoec</defName>
-    <label>Talisman of Loec</label>
-    <description>PLACEHOLDER</description>
+    <label>Talisman of the Phoenix Shield</label>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/TalismanofLoec</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -152,7 +152,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_EllyrianRangerTraining</defName>
     <label>Ellyrian Ranger Training</label>
-    <description>PLACEHOLDER</description>
+    <description>The Ellyrian Reavers, or Reaver Knights, are a famous formation of elite Ellyrian horsemen who are famous for their abilities as swift and agile horse archers and mounted spearmen.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/EllyrianRangerTraining</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -190,7 +190,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_SwordMasterofHoethTraining</defName>
     <label>Sword Master of Hoeth Training</label>
-    <description>PLACEHOLDER</description>
+    <description>The Swordmasters of Hoeth are exemplars of the Elven martial arts. Each has studied warfare and personal combat for decades, or even centuries.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/SwordMasterofHoethTraining</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -227,7 +227,7 @@
     <thingClass>Apparel</thingClass>  
     <defName>HE_MarineMerchantPurse</defName>
     <label>Marine Merchant Purse</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elves are exceptional traders and merchants that often bring great wealth back to Ulthuan.</description>
     <graphicData>
       <texPath>Things/Items/Accessories/MarineMerchantPurse</texPath>
       <graphicClass>Graphic_Single</graphicClass>

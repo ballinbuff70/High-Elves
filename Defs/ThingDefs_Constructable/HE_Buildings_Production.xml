@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="BenchBase">
     <defName>HighElves_Smithery</defName>
-    <label>High Elven Smithery</label>
-    <description>An imperial work station for assembling or breaking down machinery like components, armour, guns and ammunition, or dead mechanoids.</description>
+    <label>High Elven Smith</label>
+    <description>High Elves are exceptional smiths who are masters of manipulating Ithilmar metal. Ithilmar (lit. 'sky-silver' in Eltharin) is a wondrous, lightweight metal found only in Vaul's Anvil, the largest volcano in Ulthuan. Forged by Elven smiths, ithilmar is priceless, and serves as an excellent alternative to steel or iron mail. In Norsca, it is also known as the "witch-metal" of the Elves.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/WorkBuildings/Smithery/Smithery</texPath>
@@ -76,7 +76,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>HighElves_ShieldStation</defName>
     <label>High Elven Shield Station</label>
-    <description>An imperial work station for assembling or breaking down machinery like components, armour, guns and ammunition, or dead mechanoids.</description>
+    <description>High Elf station for the shaping and crafting of shields for warriors to carry into battle against the enemies of Ulthuan.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/WorkBuildings/ShieldStation/ShieldStation</texPath>
@@ -148,7 +148,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>HighElves_MagicStation</defName>
     <label>High Elven Magic Station</label>
-    <description>An imperial work station for assembling or breaking down machinery like components, armour, guns and ammunition, or dead mechanoids.</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards. This station will allow for the production of many of the items utilized by the mages of the Asur.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/WorkBuildings/MagicStation/MagicStation</texPath>
@@ -220,7 +220,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>HighElves_RequisitionsTent</defName>
     <label>High Elven Requisitions Tent</label>
-    <description>A wood-fueled station for the art of freebooting</description>
+    <description>High Elves are exceptional traders and merchants that often bring great wealth back to Ulthuan. At this station you may perform many activities associated with shipping and caravaning goods to Ulthuan.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/WorkBuildings/RequisitionsTent/RequisitionsTent</texPath>

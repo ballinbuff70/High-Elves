@@ -5,8 +5,8 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_CoaxWhip</defName>
-    <label>Coax Whip</label>
-    <description>PLACEHOLDER</description>
+    <label>High Elf Training Whip</label>
+    <description>The High Elves are excellent animal masters and may utilize a training whip to better coax them to defend Ulthuan.</description>
     <graphicData>
       <texPath>Things/Weapons/CoaxWhip</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -76,7 +76,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_One</defName>
     <label>High Elf Spear (One)</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_One</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Two</defName>
     <label>High Elf Spear (Two)</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_Two</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -226,7 +226,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Three</defName>
     <label>High Elf Spear (Three)</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_Three</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -301,7 +301,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Lance</defName>
     <label>High Elf Lance</label>
-    <description>PLACEHOLDER</description>
+    <description>The Ellyrian Reavers, or Reaver Knights, are a famous formation of elite Ellyrian horsemen who are famous for their abilities as swift and agile horse archers and mounted spearmen often armed with a lance.</description>
     <graphicData>
       <texPath>Things/Weapons/Lance</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -376,7 +376,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_Trident</defName>
     <label>High Elf Trident</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <graphicData>
       <texPath>Things/Weapons/Spear_Trident</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -451,7 +451,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_Spear_PhoenixGPoleAx</defName>
     <label>High Elf Phoenix Guard Pole Ax</label>
-    <description>PLACEHOLDER</description>
+    <description>The Phoenix Guard are the fearsome guardians of the Shrine of Asuryan, the great pyramid-temple in the Sea of Dreams.</description>
     <graphicData>
       <texPath>Things/Weapons/Phoenix_PoleAx</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -528,7 +528,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_One</defName>
 		<label>High Elf Sword (One)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_One</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -597,7 +597,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Two</defName>
 		<label>High Elf Sword (Two)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Two</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -666,7 +666,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Three</defName>
 		<label>High Elf Sword (Three)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Three</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -735,7 +735,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Four</defName>
 		<label>High Elf Sword (Four)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Four</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -804,7 +804,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Five</defName>
 		<label>High Elf Sword (Five)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_LalaOne</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -873,7 +873,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Six</defName>
 		<label>High Elf Sword (Five)</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_LalaThree</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -942,7 +942,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_HE_Ax</defName>
     <label>High Elf Seaguard Axe</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Seaguard are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Seaguard.</description>
     <graphicData>
       <texPath>Things/Weapons/HE_Axe_One</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1017,7 +1017,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_HE_Ax_LalaOne</defName>
     <label>High Elf Coastal Militia Axe</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Seaguard are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Seaguard.</description>
     <graphicData>
       <texPath>Things/Weapons/Axe_LalaOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1092,7 +1092,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_HE_Ax_LalaTwo</defName>
     <label>High Elf Royal Axe</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Seaguard are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Seaguard.</description>
     <graphicData>
       <texPath>Things/Weapons/Axe_LalaTwo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1167,7 +1167,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_MeleeWeapon_WhiteLionAxe</defName>
     <label>High Elf White Lion Axe</label>
-    <description>PLACEHOLDER</description>
+    <description>The White Lions have served as the personal guard of the Phoenix King since the time of Caledor the First.</description>
     <graphicData>
       <texPath>Things/Weapons/WhiteLionAxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1242,7 +1242,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_DragonPrince</defName>
 		<label>High Elf Dragon Prince Sword</label>
-		<description>PLACEHOLDER</description>
+		<description>The Dragon Princes are the noblest and proudest Asur knights of Caledor. Once the Dragon Princes could command enough dragons to turn the skies dark with wings, destroying entire armies with their flames and mighty claws, but now the dragons are few and those that are left slumber deeply. However, the Dragon Princes have lost none of their own skills with sword and lance, so they gallop into battle upon mighty Elven steeds caparisoned in burnished armour forged in the form of a dragon.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/DragonPrince_Sword</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1311,7 +1311,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Master</defName>
 		<label>High Elf Master Sword</label>
-		<description>PLACEHOLDER</description>
+		<description>The Swordmasters of Hoeth are exemplars of the Elven martial arts. Each has studied warfare and personal combat for decades, or even centuries.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Master</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1379,7 +1379,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Magic_Saphery</defName>
 		<label>High Elf Sword of Saphery</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/SwordOfSaphery</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1432,18 +1432,6 @@
 		  </li>
 		</tools>
 	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.15</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.08</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.1</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.08</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
 		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
 			<angleAdjustmentEast>95</angleAdjustmentEast>
 			<angleAdjustmentWest>-95</angleAdjustmentWest>
@@ -1459,7 +1447,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Magic_Hoeth</defName>
 		<label>High Elf Sword of Hoeth</label>
-		<description>PLACEHOLDER</description>
+		<description>The Swordmasters of Hoeth are exemplars of the Elven martial arts. Each has studied warfare and personal combat for decades, or even centuries.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Lalafour</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1512,18 +1500,6 @@
 		  </li>
 		</tools>
 	<comps>
-		<li Class="TorannMagic.Enchantment.CompProperties_EnchantedItem">
-			<hasEnchantment>true</hasEnchantment>
-			<arcaneSpectre>true</arcaneSpectre>
-			<maxMP>0.15</maxMP>
-			<maxMPTier>Standard</maxMPTier>
-			<mpRegenRate>0.08</mpRegenRate>
-			<mpRegenRateTier>Standard</mpRegenRateTier>
-			<mpCost>0.1</mpCost>
-			<mpCostTier>Negative</mpCostTier>
-			<arcaneRes>0.08</arcaneRes>
-			<arcaneResTier>Standard</arcaneResTier>
-		</li>
 		<li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
 			<angleAdjustmentEast>95</angleAdjustmentEast>
 			<angleAdjustmentWest>-95</angleAdjustmentWest>
@@ -1539,7 +1515,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Regal</defName>
 		<label>High Elf Regal Sword</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_Regal</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1607,7 +1583,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_GoldenRegal</defName>
 		<label>High Elf Royal Sword</label>
-		<description>PLACEHOLDER</description>
+		<description>High Elf Swordsmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a Swordsmen.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Sword_LalaTwo</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1674,7 +1650,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>HE_Sword_Sunfang</defName>
 		<label>High Elf Sunfang Sword</label>
-		<description>PLACEHOLDER</description>
+		<description>Sunfang (Lacelothrai in Eltharin) was the famed sword created by Caledor Dragontamer during the First Chaos Incursion for Aenarion the Defender. Lost for millennia, it was recovered in the jungles of Lustria by the twins Tyrion and Teclis.</description>
 		<graphicData>
 		  <texPath>Things/Weapons/Tyrion_Lala</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1744,7 +1720,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>SU_MeleeWeapon_HE_FlagOne</defName>
     <label>High Elf Flag</label>
-    <description>Let them know the Bell tolls!</description>
+    <description>Let them know the Asur descend upon them!</description>
     <graphicData>
       <texPath>Things/Weapons/HE_FlagOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>

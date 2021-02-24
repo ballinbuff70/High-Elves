@@ -6,7 +6,7 @@
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_HE_Archer</defName>
     <label>High Elf Archer Armor</label>
-    <description>PLACEHOLDER</description>
+    <description>When a High Elf begins his martial training, he first learns the arts of swordsmanship and archery. Only when he has mastered both blade and bow is he inducted into the white-garbed ranks of an archer regiment. For the High Elves, white is the colour of purity and integrity and of death, and their robes symbolise their determination to fight to the end, no matter what horrors await them on the battlefield. Once trained, an archer serves in his regiment for a decade or more, forsaking all previous allegiances.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Middle/HE_Archer/HE_Archer</texPath>
@@ -67,7 +67,7 @@
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_HE_Mail_Coat</defName>
     <label>High Elf Mail Coat</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Middle/HE_Mail_Coat/HE_Mail_Coat</texPath>
@@ -128,7 +128,7 @@
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_HE_Golden_Mail_Coat</defName>
     <label>High Elf Golden Mail Coat</label>
-    <description>PLACEHOLDER</description>
+    <description>High Elf Spearmen are the elite, second-tier citizen-militia within Ulthuan's armies, acting as a disciplined line of warriors that puts even the most battle-hardened Human warrior to shame. It is only after a decade or more of fighting as an Archer and once his worth is proven, does a High Elf then become a spearmen.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/Middle/HE_Golden_Mail_Coat/HE_Golden_Mail_Coat</texPath>

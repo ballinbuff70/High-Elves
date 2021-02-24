@@ -56,7 +56,7 @@
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_One</defName>
     <label>Staff of Saphery</label>
-    <description>Placeholder</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_One</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -154,7 +154,7 @@
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_Two</defName>
     <label>Staff of the Winds</label>
-    <description>Placeholder</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Two</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -254,7 +254,7 @@
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_Three</defName>
     <label>Staff of the Vortex</label>
-    <description>Placeholder</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Three</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -353,7 +353,7 @@
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_Four</defName>
     <label>Staff of the Crimson Star</label>
-    <description>Placeholder</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Four</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -435,7 +435,7 @@
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_Five</defName>
     <label>Staff of the Golden Phoenix</label>
-    <description>Placeholder</description>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Five</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -516,8 +516,8 @@
 
   <ThingDef ParentName="VC_BaseMakeableVCStafforScroll">
     <defName>HE_Staff_Six</defName>
-    <label>Staff of the Asuryan</label>
-    <description>Placeholder</description>
+    <label>Staff of the Shining Bloom</label>
+    <description>High Elf Mages are aspirants to the Magical arts, but due to their natural affinity to the Winds of Magic, they are far more powerful than even the most experienced Imperial Battle Wizards.</description>
     <graphicData>
       <texPath>Things/Weapons/Staff_Six</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

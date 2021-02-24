@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>RH_TET_HighElvenCitizen</defName>
     <label>High Elven Citizen</label>
-    <description>Clanrats form the vast overall bulk of Skaven military power, a large verminous horde of ratmen that go to war as basic and highly-expendable front-line infantry.</description>
+    <description>High Elf citizen for the colony who will passively provide taxes in gold when collected.</description>
     <statBases>
       <MoveSpeed>3.4</MoveSpeed>
       <MarketValue>100</MarketValue>
@@ -61,7 +61,6 @@
       </li>
     </comps>	
     <race>
-      <fleshType>RH_TET_SkavenMeat</fleshType>
       <body>Monkey</body>
       <petness>0.70</petness>
       <manhunterOnTameFailChance>.99</manhunterOnTameFailChance>

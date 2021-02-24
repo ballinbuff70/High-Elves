@@ -27,7 +27,7 @@
     <costList>
 		<WoodLog>140</WoodLog>
 		<Gold>5</Gold>
-	        <Cloth>40</Cloth>
+	    <Cloth>40</Cloth>
     </costList>
     <size>(2,4)</size>
   </ThingDef>
