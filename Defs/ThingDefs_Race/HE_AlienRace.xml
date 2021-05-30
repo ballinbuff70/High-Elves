@@ -51,7 +51,6 @@ Assuming they do not die a violent death, Elves are capable of living for severa
 			<graphicPaths>
                 <li>
                     <head>Things/Pawn/Humanlike/Heads/</head>
-					<body>Things/Pawn/Humanlike/Bodies/</body>
                 </li>
             </graphicPaths>
 			<raceRestriction>
