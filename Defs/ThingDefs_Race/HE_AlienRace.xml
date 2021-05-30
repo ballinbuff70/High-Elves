@@ -48,6 +48,12 @@ Assuming they do not die a violent death, Elves are capable of living for severa
 					<useGenderedHeads>true</useGenderedHeads>
 				</alienPartGenerator>
 			</generalSettings>
+			<graphicPaths>
+                <li>
+                    <head>Things/Pawn/Humanlike/Heads/</head>
+					<body>Things/Pawn/Humanlike/Bodies/</body>
+                </li>
+            </graphicPaths>
 			<raceRestriction>
 			<apparelList>
                 <li>Apparel_HE_Archer</li>
@@ -214,16 +220,8 @@ Assuming they do not die a violent death, Elves are capable of living for severa
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>AdultElfBaseStage</def>
+					<def>HumanlikeAdult</def>
 					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>ElderElfBaseStage</def>
-					<minAge>200</minAge>
-				</li>
-				<li>
-					<def>AncestorElfBaseStage</def>
-					<minAge>800</minAge>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
