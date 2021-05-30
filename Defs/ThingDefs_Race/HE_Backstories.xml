@@ -21,7 +21,6 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Construction</li>
       <li>Intellectual</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
@@ -420,7 +419,6 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Construction</li>
       <li>Mining</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
@@ -445,7 +443,6 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Construction</li>
       <li>Crafting</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
@@ -470,7 +467,6 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Construction</li>
       <li>Crafting</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>
@@ -495,7 +491,7 @@
       <li>HE_Backstories_Standard</li>
     </spawnCategories>
     <requiredWorkTags>
-      <li>Plants</li>
+      <li>PlantWork</li>
       <li>Cooking</li>
     </requiredWorkTags>
   </AlienRace.BackstoryDef>

@@ -26,6 +26,11 @@ High Elves brought to Rimworld!
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2195729899</steamWorkshopUrl>
 		</li>		
 		<li>
+			<packageId>sickboywi.theendtimes.magic</packageId>
+			<displayName>Rimhammer - The End Times - Magic</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2020384442</steamWorkshopUrl>
+		</li>	
+		<li>
 			<packageId>sickboywi.theendtimes.dwarfs</packageId>
 			<displayName>Rimhammer - The End Times - Dwarves</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2016381892</steamWorkshopUrl>
@@ -56,7 +61,7 @@ High Elves brought to Rimworld!
 		<li>unlimitedhugs.hugslib</li>
 		<li>jecrell.jecstools</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-		<li>sickboywi.theendtimes.theendtimes</li>
+		<li>sickboywi.theendtimes.magic</li>
 		<li>sickboywi.theendtimes.dwarfs</li>
 		<li>isorex.craftablepawnframework</li>
 		<li>vindar.medievaltimes</li>
