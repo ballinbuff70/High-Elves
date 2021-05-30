@@ -31,7 +31,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>HE_Great_Eagle</defName>
     <label>Great Eagle</label>
-    <description>There has always been a great bond of kinship between the Elves and the Great Eagles, stretching back to ancient times. That bond remains strong between the Wood Elves and the noble avians, and so many families of eagles choose to make their homes in the heights of the Grey Mountains, close by the borders of Athel Loren. On rare or desperate occasions, a Great Eagle may offer itself as a mount to a particularly trusted Glade Lord. This is a great honour in the eyes of the Wood Elves, for it is a true partnership of equals. Such a union forms the start of a great and enduring friendship that continues to bind both parties, even after death.</description>
+    <description>There has always been a great bond of kinship between the Elves and the Great Eagles, stretching back to ancient times. That bond remains strong between the Elves and the noble avians, and so many families of eagles choose to make their homes in the heights of the Grey Mountains, close by the borders of Athel Loren. On rare or desperate occasions, a Great Eagle may offer itself as a mount to a particularly trusted Glade Lord. This is a great honour in the eyes of the Wood Elves, for it is a true partnership of equals. Such a union forms the start of a great and enduring friendship that continues to bind both parties, even after death.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
