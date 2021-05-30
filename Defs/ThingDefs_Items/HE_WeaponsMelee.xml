@@ -6,7 +6,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>SU_CoaxWhip</defName>
     <label>High Elf Training Whip</label>
-    <description>The High Elves are excellent animal masters and may utilize a training whip to better coax them to defend Ulthuan.</description>
+    <description>The High Elves are excellent animal masters and may utilize a training whip to better coax them to defend their Tors.</description>
     <graphicData>
       <texPath>Things/Weapons/CoaxWhip</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -21,7 +21,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>20</count>
       </li>
 	  <li>
         <filter>
@@ -29,7 +29,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>3</count>
       </li>
 	  <li>
         <filter>

@@ -264,6 +264,7 @@
     </fixedIngredientFilter>
     <products>
       <RawCorn>50</RawCorn>
+	  <WoodLog>5</WoodLog>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -301,6 +302,7 @@
     </fixedIngredientFilter>
     <products>
       <RawHops>25</RawHops>
+	  <WoodLog>5</WoodLog>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -338,6 +340,7 @@
     </fixedIngredientFilter>
     <products>
       <RawPotatoes>25</RawPotatoes>
+	  <WoodLog>5</WoodLog>	  
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -375,6 +378,7 @@
     </fixedIngredientFilter>
     <products>
       <Hay>25</Hay>
+	  <WoodLog>5</WoodLog>	  
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -412,6 +416,7 @@
     </fixedIngredientFilter>
     <products>
       <MedicineHerbal>25</MedicineHerbal>
+	  <WoodLog>5</WoodLog>	  
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>

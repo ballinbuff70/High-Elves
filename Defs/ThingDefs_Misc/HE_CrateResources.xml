@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>CornCrates</defName>
     <label>Corn Crates</label>
-    <description>These are crated Corn boxes to be sold for a golden profit.</description>
+    <description>These are crated Corn boxes to be sold for a golden profit or stored for use at a later point in time. Be warned, half of what was packed will be lost if unpacked...</description>
     <graphicData>
       <texPath>Things/Items/Resources/CornCrates</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -30,7 +30,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>HopsCrates</defName>
     <label>Hops Crates</label>
-    <description>These are crated Hops boxes to be sold for a golden profit.</description>
+    <description>These are crated Hops boxes to be sold for a golden profit or stored for use at a later point in time. Be warned, half of what was packed will be lost if unpacked...</description>
     <graphicData>
       <texPath>Things/Items/Resources/HopsCrates</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -56,7 +56,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PotatoCrates</defName>
     <label>Potato Crates</label>
-    <description>These are crated Potato boxes to be sold for a golden profit.</description>
+    <description>These are crated Potato boxes to be sold for a golden profit or stored for use at a later point in time. Be warned, half of what was packed will be lost if unpacked...</description>
     <graphicData>
       <texPath>Things/Items/Resources/PotatoCrates</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -82,7 +82,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>HayCrates</defName>
     <label>Hay Crates</label>
-    <description>These are crated Hay boxes to be sold for a golden profit.</description>
+    <description>These are crated Hay boxes to be sold for a golden profit or stored for use at a later point in time. Be warned, half of what was packed will be lost if unpacked...</description>
     <graphicData>
       <texPath>Things/Items/Resources/HayCrates</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -108,7 +108,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>MedCrates</defName>
     <label>Medicine Crates</label>
-    <description>These are crated Medicine boxes to be sold for a golden profit.</description>
+    <description>These are crated Medicine boxes to be sold for a golden profit or stored for use at a later point in time. Be warned, half of what was packed will be lost if unpacked...</description>
     <graphicData>
       <texPath>Things/Items/Resources/MedCrates</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
