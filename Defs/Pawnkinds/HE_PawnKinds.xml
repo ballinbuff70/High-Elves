@@ -33,13 +33,7 @@
     <apparelMoney>
       <min>400</min>
       <max>600</max>
-    </apparelMoney>
-	<modExtensions>
-		<li Class="CraftablePawnFramework.MyDefExtension">
-			<setSkillLevel>true</setSkillLevel>
-			<skillLevelAt>6</skillLevelAt>
-		</li>
-	</modExtensions>	
+    </apparelMoney>	
   </PawnKindDef>
 
 <!-- Non-Player -->
