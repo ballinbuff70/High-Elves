@@ -46,16 +46,6 @@ High Elves brought to Rimworld!
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007</steamWorkshopUrl>
 		</li>			
 		<li>
-			<packageId>neronix17.toolbox</packageId>
-			<displayName>[O21] Toolbox</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>neronix17.fr.compilation</packageId>
-			<displayName>[O21] Forgotten Realms</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669</steamWorkshopUrl>
-		</li>
-		<li>
 			<packageId>sarg.magicalmenagerie</packageId>
 			<displayName>Magical Menagerie</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669</steamWorkshopUrl>
@@ -69,8 +59,6 @@ High Elves brought to Rimworld!
 		<li>sickboywi.theendtimes.theendtimes</li>
 		<li>sickboywi.theendtimes.dwarfs</li>
 		<li>isorex.craftablepawnframework</li>
-		<li>neronix17.toolbox</li>
-		<li>neronix17.fr.compilation</li>
 		<li>vindar.medievaltimes</li>
 		<li>vanillaexpanded.vfesecurity</li>
 		<li>sarg.magicalmenagerie</li>
