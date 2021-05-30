@@ -6,10 +6,10 @@
 	<label>High Elves</label>
 	<fixedName>Kingdom of the Northstar</fixedName>
     <description>The High Elves, the Eldest Race, or the Asur as they call themselves, are one of the most ancient and powerful mortal civilisations within the Warhammer World. Hailing from a mighty mist-shrouded island-continent located within the centre of the Great Ocean,[1e] the High Elves of Ulthuan are a proud and mighty nation of masterful warriors, peerless mages and lords of the sky and sea. They are an ancient race with powerful armies and even grander magic, building a grand and all-mighty civilisation who, alongside the Dwarfs, fought a long-forgotten, apocalyptic war which saw some of the greatest and most powerful mortal heroes battle against the great darkness that tried to consume the world many thousands of years ago. At the zenith of their power, the world was truly theirs for the taking.</description>
-    <colorSpectrum>
-      <li>(0.35, 0.35, 0.35)</li>
-      <li>(0.5, 0.50, 0.50)</li>
-    </colorSpectrum>
+      <colorSpectrum>
+          <li>(0.34, 0.73, 0.76)</li>
+          <li>(0.47, 1, 1)</li>
+      </colorSpectrum>
     <pawnsPlural>High Elves</pawnsPlural>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -17,7 +17,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Phoenix King</leaderTitle>
-    <factionIconPath>Things/World/HighElvesIconPlayer</factionIconPath>
+    <factionIconPath>Things/World/HighElvesIconNonPlayer</factionIconPath>
 	<maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
