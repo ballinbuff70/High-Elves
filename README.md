@@ -24,12 +24,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018388116
 Vanilla Expanded Security
 https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007
 
-A RimWorld of Magic
-https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956
-
-[O21] Toolbox
-https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094
-
-[O21] Forgotten Realms
-https://steamcommunity.com/sharedfiles/filedetails/?id=2184183669
 
