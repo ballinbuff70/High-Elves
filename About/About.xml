@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Warhammer: High Elves</name>
-	<author>Buffsboy474</author>
-	<packageId>Buffsboy474.HighElvesMasterGit</packageId>
+	<name>Warhammer Fantasy: High Elves</name>
+	<author>HappyPurging</author>
+	<packageId>HappyPurging.HighElvesMaster</packageId>
 	<supportedVersions>
       <li>1.2</li>
    </supportedVersions>
