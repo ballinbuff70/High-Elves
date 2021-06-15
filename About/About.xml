@@ -7,7 +7,11 @@
       <li>1.2</li>
    </supportedVersions>
 	<description>
-High Elves brought to Rimworld!
+Armies of Ulthuan have arrived!
+
+The High Elves, or the Asur, as they call themselves, are one of the most ancient and powerful mortal civilisations within the Warhammer World. Hailing from a mighty mist-shrouded island-continent located within the centre of the Great Ocean, the High Elves of Ulthuan are a proud and mighty nation of masterful warriors, peerless mages and lords of the sky and sea. They are an ancient race with powerful armies and even grander magic, building a grand and all-mighty civilisation who, alongside the Dwarfs, fought a long-forgotten, apocalyptic war which saw some of the greatest and most powerful mortal heroes battle against the great darkness that tried to consume the world many thousands of years ago. At the zenith of their power, the world was truly theirs for the taking.
+
+This mod offers the High Elf weapons, armors, race, faction, and more.
 	</description>
 	<modDependencies>
 		<li>
@@ -41,11 +45,6 @@ High Elves brought to Rimworld!
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2177576927</steamWorkshopUrl>
 		</li>	
 		<li>
-			<packageId>vindar.medievaltimes</packageId>
-			<displayName>Medieval Times</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2018388116</steamWorkshopUrl>
-		</li>	
-		<li>
 			<packageId>vanillaexpanded.vfesecurity</packageId>
 			<displayName>Vanilla Expanded Security</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007</steamWorkshopUrl>
@@ -64,7 +63,6 @@ High Elves brought to Rimworld!
 		<li>sickboywi.theendtimes.magic</li>
 		<li>sickboywi.theendtimes.dwarfs</li>
 		<li>isorex.craftablepawnframework</li>
-		<li>vindar.medievaltimes</li>
 		<li>vanillaexpanded.vfesecurity</li>
 		<li>sarg.magicalmenagerie</li>
 	</loadAfter>
