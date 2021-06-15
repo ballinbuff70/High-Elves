@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
  
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_LoremasterOrb</defName>
     <label>Loremaster Orb</label>
@@ -35,7 +35,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofSaphery</defName>
     <label>Talisman of Saphery</label>
@@ -71,7 +71,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TeachingsoftheLifeBloom</defName>
     <label>Teachings of the Life Bloom</label>
@@ -110,7 +110,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_TalismanofLoec</defName>
     <label>Talisman of the Phoenix Shield</label>
@@ -148,7 +148,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_EllyrianRangerTraining</defName>
     <label>Ellyrian Ranger Training</label>
@@ -186,7 +186,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_SwordMasterofHoethTraining</defName>
     <label>Sword Master of Hoeth Training</label>
@@ -223,7 +223,7 @@
     </recipeMaker>
   </ThingDef>
 
- <ThingDef ParentName="MedTimes_Accessories_Norm">
+ <ThingDef ParentName="WHHE_Accessories_Norm">
     <thingClass>Apparel</thingClass>  
     <defName>HE_MarineMerchantPurse</defName>
     <label>Marine Merchant Purse</label>
